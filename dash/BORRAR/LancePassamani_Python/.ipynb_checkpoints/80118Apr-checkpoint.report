@@ -1,0 +1,1704 @@
+[Station Details]
+Station Name=Alice Springs       
+Radiation Station Number=801
+Period Of File=2018 from day number 091 to 120
+Number Of Days Covered=30
+
+[QC Stages Done]
+Stage 1 (Files Retrieved)=Fri Jun  8 16:04:05 2018 (Version 2.0-20160810123636)
+Stage 2a (Binary Analysis)=Fri Jun  8 16:22:38 2018 (Version 2.0-20160919163041)
+Stage 2b (Tracker Analysis)=Fri Jun  8 16:22:55 2018 (Version 2.0-20160810135140)
+Stage 2c (Test File Analysis)=Fri Jun  8 16:25:18 2018 (Version 2.0-20160810135545)
+Stage 2d (Time File Analysis)=Fri Jun  8 16:27:19 2018 (Version 2.0-20160810140034)
+Stage 3 (Report File Analysis)=Fri Jun  8 16:28:27 2018 (Version 2.0-20160810140400)
+Stage 4 (Preliminary Data Processing)=Fri Jun  8 16:50:48 2018 (Version 2.0-20160919181434)
+Stage Exposure (Write Exposure Files)=Fri Jun  8 16:53:56 2018 (Version 2.0-20160909162413)
+
+
+[Data Recovery Summary]
+BINARY files found=30
+Binary % recovered (files)=100
+Binary % recovered (data)=99.9907
+Binary missing files=0
+TRACKER files found=30
+Tracker % recovered (files)=100
+Tracker missing files=0
+AWS files found=28
+Aws % recovered (files)=93.3333
+Aws missing files=2
+PHOTOMETER files found=0
+Photometer % recovered (files)=0
+Photometer missing files=30
+TIME files found=0
+Time % recovered (files)=0
+Time missing files=30
+CLOCK files found=0
+Clock % recovered (files)=0
+Clock missing files=1
+TEST files found=14
+Test % recovered (files)=46.6667
+Test missing files=16
+MESSAGE files found=0
+FAULT files found=0
+ERROR files found=0
+DTQ files found=0
+
+[Missing AWS files]
+AwsMissing0=91, 92
+
+[Missing TEST files]
+TestMissing0=91, 92, 96, 97, 98, 101, 102, 104, 105, 108, 110, 111, 112, 115, 118, 119
+
+[Missing PHOTOMETER files]
+PhotometerMissing0=91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120
+
+[Missing TIME files]
+TimeMissing0=91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120
+
+[Missing CLOCK files]
+ClockMissing0=91
+
+[Binary Data Recovery Summary]
+Correct File Size=30
+Correct Station details=30
+Correct Year=30
+Correct Day Number=0
+Correct Time Stamp=30
+Valid Flag Identifier=29
+Valid Samples recorded=30
+
+[Bad BINARY day]
+BinaryBadDay0=91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120
+
+[Bad BINARY flag]
+BinaryBadFlag0=116
+
+[Global Binary Data Recovery Summary]
+Valid Data=28
+Valid Min Data=29
+Valid Max Data=28
+Valid SD Data=30
+Valid Statistics=-1
+
+[Bad BINARY Global]
+BinaryBadGlobal0=100, 110
+
+[Bad BINARY Global max]
+BinaryBadGlobalMax0=100, 110
+
+[Bad BINARY Global min]
+BinaryBadGlobalMin0=110
+
+[Global Thermister Binary Data Recovery Summary]
+Valid Data=30
+Valid Min Data=30
+Valid Max Data=30
+Valid SD Data=30
+Valid Statistics=-1
+
+[Diffuse Binary Data Recovery Summary]
+Valid Data=29
+Valid Min Data=29
+Valid Max Data=29
+Valid SD Data=30
+Valid Statistics=-1
+
+[Bad BINARY Diffuse]
+BinaryBadDiffuse0=116
+
+[Bad BINARY Diffuse max]
+BinaryBadDiffuseMax0=116
+
+[Bad BINARY Diffuse min]
+BinaryBadDiffuseMin0=116
+
+[Diffuse Thermister Binary Data Recovery Summary]
+Valid Data=30
+Valid Min Data=30
+Valid Max Data=30
+Valid SD Data=30
+Valid Statistics=-1
+
+[Direct Binary Data Recovery Summary]
+Valid Data=21
+Valid Min Data=23
+Valid Max Data=20
+Valid SD Data=30
+Valid Statistics=-1
+
+[Bad BINARY Direct]
+BinaryBadDirect0=91, 92, 93, 96, 97, 98, 106, 107, 113
+
+[Bad BINARY Direct max]
+BinaryBadDirectMax0=91, 92, 93, 96, 97, 98, 99, 106, 107, 113
+
+[Bad BINARY Direct min]
+BinaryBadDirectMin0=91, 93, 96, 97, 98, 106, 107
+
+[Direct Thermister Binary Data Recovery Summary]
+Valid Data=30
+Valid Min Data=30
+Valid Max Data=30
+Valid SD Data=30
+Valid Statistics=-1
+
+[Longwave Binary Data Recovery Summary]
+Valid Data=0
+Valid Min Data=0
+Valid Max Data=0
+Valid SD Data=25
+Valid Statistics=-1
+
+[Bad BINARY Longwave]
+BinaryBadLongwave0=91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120
+
+[Bad BINARY Longwave SD]
+BinaryBadLongwaveSD0=95, 100, 101, 104, 109
+
+[Bad BINARY Longwave max]
+BinaryBadLongwaveMax0=91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120
+
+[Bad BINARY Longwave min]
+BinaryBadLongwaveMin0=91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120
+
+[Longwave Body Thermister Binary Data Recovery Summary]
+Valid Data=30
+Valid Min Data=30
+Valid Max Data=30
+Valid SD Data=30
+Valid Statistics=-1
+
+[Longwave Dome Thermister Binary Data Recovery Summary]
+Valid Data=30
+Valid Min Data=30
+Valid Max Data=30
+Valid SD Data=30
+Valid Statistics=-1
+
+[Short Circuit Binary Data Recovery Summary]
+Valid Data=30
+Valid Min Data=30
+Valid Max Data=30
+Valid SD Data=30
+Valid Statistics=-1
+
+[Zero Binary Data Recovery Summary]
+Valid Data=30
+Valid Min Data=30
+Valid Max Data=30
+Valid SD Data=30
+Valid Statistics=-1
+
+[Temp Binary Data Recovery Summary]
+Valid Data=30
+Valid Min Data=30
+Valid Max Data=30
+Valid SD Data=30
+Valid Statistics=-1
+
+[Day BreakDown (%) Night-Clear-Cloudy-Suspect]
+Day091= Global-091.67-007.85-000.00-000.00, Diffuse-099.51-000.00-000.00-000.00, Direct-087.57-011.67-000.28-000.00, Longwave-099.51-000.00-000.00-000.00, Missing-000.00
+Day092= Global-089.17-010.83-000.00-000.00, Diffuse-099.93-000.07-000.00-000.00, Direct-083.26-016.46-000.28-000.00, Longwave-100.00-000.00-000.00-000.00, Missing-000.00
+Day093= Global-087.08-012.57-000.00-000.00, Diffuse-099.44-000.21-000.00-000.00, Direct-082.50-016.88-000.28-000.00, Longwave-099.65-000.00-000.00-000.00, Missing-000.00
+Day094= Global-086.94-012.43-000.28-000.00, Diffuse-097.36-002.29-000.00-000.00, Direct-082.36-016.74-000.56-000.00, Longwave-099.65-000.00-000.00-000.00, Missing-000.00
+Day095= Global-078.26-016.04-005.69-000.00, Diffuse-092.50-007.43-000.07-000.00, Direct-080.14-011.39-008.47-000.00, Longwave-099.93-000.00-000.00-000.07, Missing-000.00
+Day096= Global-091.04-008.54-000.00-000.00, Diffuse-099.72-000.28-000.00-000.00, Direct-087.43-012.08-000.49-000.00, Longwave-100.00-000.00-000.00-000.00, Missing-000.00
+Day097= Global-091.94-008.06-000.00-000.00, Diffuse-099.93-000.07-000.00-000.00, Direct-087.71-010.97-001.32-000.00, Longwave-100.00-000.00-000.00-000.00, Missing-000.00
+Day098= Global-093.33-006.67-000.00-000.00, Diffuse-099.86-000.14-000.00-000.00, Direct-088.06-011.67-000.28-000.00, Longwave-100.00-000.00-000.00-000.00, Missing-000.00
+Day099= Global-082.15-012.92-004.72-000.00, Diffuse-090.69-009.10-000.00-000.00, Direct-079.93-014.24-005.63-000.00, Longwave-099.79-000.00-000.00-000.00, Missing-000.00
+Day100= Global-067.15-014.24-018.61-000.00, Diffuse-075.49-024.03-000.49-000.00, Direct-067.29-009.24-023.47-000.00, Longwave-099.86-000.00-000.00-000.14, Missing-000.00
+Day101= Global-086.25-012.85-000.90-000.00, Diffuse-087.57-012.43-000.00-000.00, Direct-095.56-002.50-001.94-000.00, Longwave-099.93-000.00-000.00-000.07, Missing-000.00
+Day102= Global-077.71-015.00-007.29-000.00, Diffuse-085.14-014.86-000.00-000.00, Direct-081.53-008.61-009.86-000.00, Longwave-100.00-000.00-000.00-000.00, Missing-000.00
+Day103= Global-090.21-007.78-001.74-000.00, Diffuse-095.00-004.72-000.00-000.00, Direct-085.00-012.08-002.64-000.00, Longwave-099.72-000.00-000.00-000.00, Missing-000.00
+Day104= Global-088.68-008.26-003.06-000.00, Diffuse-099.86-000.14-000.00-000.00, Direct-082.64-011.74-005.63-000.00, Longwave-099.93-000.00-000.00-000.07, Missing-000.00
+Day105= Global-095.49-004.51-000.00-000.00, Diffuse-100.00-000.00-000.00-000.00, Direct-088.33-011.32-000.35-000.00, Longwave-100.00-000.00-000.00-000.00, Missing-000.00
+Day106= Global-093.13-006.60-000.00-000.00, Diffuse-099.72-000.00-000.00-000.00, Direct-087.43-010.69-001.60-000.00, Longwave-099.72-000.00-000.00-000.00, Missing-000.00
+Day107= Global-092.08-007.29-000.28-000.00, Diffuse-099.58-000.07-000.00-000.00, Direct-086.04-013.13-000.49-000.00, Longwave-099.65-000.00-000.00-000.00, Missing-000.00
+Day108= Global-096.25-003.75-000.00-000.00, Diffuse-100.00-000.00-000.00-000.00, Direct-087.85-011.94-000.21-000.00, Longwave-100.00-000.00-000.00-000.00, Missing-000.00
+Day109= Global-073.89-013.54-012.57-000.00, Diffuse-088.13-011.81-000.07-000.00, Direct-072.43-010.63-016.94-000.00, Longwave-099.93-000.00-000.00-000.07, Missing-000.00
+Day110= Global-077.08-013.26-009.65-000.00, Diffuse-086.88-012.99-000.14-000.00, Direct-075.63-012.29-012.08-000.00, Longwave-100.00-000.00-000.00-000.00, Missing-000.00
+Day111= Global-087.78-008.47-003.75-000.00, Diffuse-096.81-003.19-000.00-000.00, Direct-080.07-014.58-005.35-000.00, Longwave-100.00-000.00-000.00-000.00, Missing-000.00
+Day112= Global-094.17-005.83-000.00-000.00, Diffuse-099.93-000.07-000.00-000.00, Direct-085.00-014.72-000.28-000.00, Longwave-100.00-000.00-000.00-000.00, Missing-000.00
+Day113= Global-096.53-003.19-000.00-000.00, Diffuse-099.65-000.07-000.00-000.00, Direct-089.24-010.00-000.49-000.00, Longwave-099.72-000.00-000.00-000.00, Missing-000.00
+Day114= Global-090.90-006.67-002.08-000.00, Diffuse-097.15-002.50-000.00-000.00, Direct-086.39-009.03-004.24-000.00, Longwave-099.65-000.00-000.00-000.00, Missing-000.00
+Day115= Global-070.14-014.51-015.35-000.00, Diffuse-081.53-018.40-000.07-000.00, Direct-067.29-015.14-017.57-000.00, Longwave-100.00-000.00-000.00-000.00, Missing-000.00
+Day116= Global-070.00-015.35-014.38-000.00, Diffuse-083.13-016.53-000.07-000.00, Direct-069.44-009.79-020.49-000.00, Longwave-099.72-000.00-000.00-000.00, Missing-000.28
+Day117= Global-086.81-009.31-003.68-000.00, Diffuse-096.74-003.06-000.00-000.00, Direct-085.49-006.88-007.43-000.00, Longwave-099.79-000.00-000.00-000.00, Missing-000.00
+Day118= Global-090.14-005.69-004.17-000.00, Diffuse-095.35-004.51-000.14-000.00, Direct-082.36-012.22-005.42-000.00, Longwave-100.00-000.00-000.00-000.00, Missing-000.00
+Day119= Global-096.94-003.06-000.00-000.00, Diffuse-100.00-000.00-000.00-000.00, Direct-087.85-011.88-000.28-000.00, Longwave-100.00-000.00-000.00-000.00, Missing-000.00
+Day120= Global-096.25-003.47-000.07-000.00, Diffuse-099.79-000.00-000.00-000.00, Direct-088.68-009.86-001.25-000.00, Longwave-099.79-000.00-000.00-000.00, Missing-000.00
+
+[Tracker Data Recovery Summary]
+Correct Date=30
+Correct Time=30
+
+[Day BreakDown (%) Parked-Passive-Active-Event]
+Day091= Tracker-044.93-006.81-048.26-000.00, Missing-000.00
+Day092= Tracker-045.07-006.74-048.19-000.00, Missing-000.00
+Day093= Tracker-045.14-006.74-048.13-000.00, Missing-000.00
+Day094= Tracker-045.21-007.43-047.36-000.00, Missing-000.00
+Day095= Tracker-045.35-013.61-041.04-000.00, Missing-000.00
+Day096= Tracker-045.42-006.60-047.99-000.00, Missing-000.00
+Day097= Tracker-045.49-007.08-047.43-000.00, Missing-000.00
+Day098= Tracker-045.63-006.81-047.57-000.00, Missing-000.00
+Day099= Tracker-045.63-012.29-041.94-000.00, Missing-000.14
+Day100= Tracker-045.76-033.26-020.97-000.00, Missing-000.00
+Day101= Tracker-045.83-052.29-001.88-000.00, Missing-000.00
+Day102= Tracker-045.90-030.56-023.54-000.00, Missing-000.00
+Day103= Tracker-046.04-010.69-043.26-000.00, Missing-000.00
+Day104= Tracker-046.11-009.24-044.65-000.00, Missing-000.00
+Day105= Tracker-046.18-007.08-046.74-000.00, Missing-000.00
+Day106= Tracker-046.32-007.43-046.25-000.00, Missing-000.00
+Day107= Tracker-046.39-006.81-046.81-000.00, Missing-000.00
+Day108= Tracker-046.39-007.36-046.11-000.00, Missing-000.14
+Day109= Tracker-046.60-032.01-021.39-000.00, Missing-000.00
+Day110= Tracker-046.60-030.21-023.19-000.00, Missing-000.00
+Day111= Tracker-046.74-010.83-042.43-000.00, Missing-000.00
+Day112= Tracker-046.81-006.94-046.25-000.00, Missing-000.00
+Day113= Tracker-046.81-007.08-046.11-000.00, Missing-000.00
+Day114= Tracker-047.01-008.61-044.31-000.00, Missing-000.07
+Day115= Tracker-047.01-018.82-034.17-000.00, Missing-000.00
+Day116= Tracker-047.15-052.36-000.49-000.00, Missing-000.00
+Day117= Tracker-047.15-012.99-039.86-000.00, Missing-000.00
+Day118= Tracker-047.22-008.96-043.82-000.00, Missing-000.00
+Day119= Tracker-047.36-007.01-045.63-000.00, Missing-000.00
+Day120= Tracker-047.43-008.33-044.10-000.00, Missing-000.14
+
+[Test File Data Summary]
+Cleaning Events=15
+AD Testing Events=0
+Other Events=0
+Bad Events=0
+
+[Previous TEST File]
+Year=2018
+Day=89
+
+[Cleaning TEST event]
+TestCleaningEvent0=89, 93, 94, 95, 99, 100, 103, 106, 107, 109, 113, 114, 116, 117, 120
+
+[Day BreakDown (min) Cleaning-ADtest-Other-Bad]
+Day090= Cleaning-000.07-000.00-000.00-000.00
+Day093= Cleaning-000.07-000.00-000.00-000.00
+Day094= Cleaning-000.07-000.00-000.00-000.00
+Day095= Cleaning-000.07-000.00-000.00-000.00
+Day099= Cleaning-000.07-000.00-000.00-000.00
+Day100= Cleaning-000.07-000.00-000.00-000.00
+Day103= Cleaning-000.07-000.00-000.00-000.00
+Day106= Cleaning-000.07-000.00-000.00-000.00
+Day107= Cleaning-000.07-000.00-000.00-000.00
+Day109= Cleaning-000.07-000.00-000.00-000.00
+Day113= Cleaning-000.07-000.00-000.00-000.00
+Day114= Cleaning-000.07-000.00-000.00-000.00
+Day116= Cleaning-000.07-000.00-000.00-000.00
+Day117= Cleaning-000.07-000.00-000.00-000.00
+Day120= Cleaning-000.07-000.00-000.00-000.00
+
+[Test File Event Log]
+Day091-0000=1 0571 0573 Cleaning
+Day094-0000=1 0580 0582 Cleaning
+Day095-0000=1 0554 0556 Cleaning
+Day096-0000=1 0561 0562 Cleaning
+Day100-0000=1 0560 0561 Cleaning
+Day101-0000=1 0554 0556 Cleaning
+Day104-0000=1 0558 0560 Cleaning
+Day107-0000=1 0566 0568 Cleaning
+Day108-0000=1 0538 0540 Cleaning
+Day110-0000=1 0550 0552 Cleaning
+Day114-0000=1 0561 0563 Cleaning
+Day115-0000=1 0566 0568 Cleaning
+Day117-0000=1 0551 0553 Cleaning
+Day118-0000=1 0554 0556 Cleaning
+
+
+;only storing cleaning data for this day
+[Day 089 Minute Listing Grouped]
+Min0001-0571=(=)(=)()(=)
+Min0572-0574=(=)(=)(CL)(=)
+Min0575-1440=(=)(=)()(=)
+
+[Day 091 Minute Listing Grouped]
+Min0001-0031=()(PK)(=)(=)
+Min0032-0060=()(TM tt)(=)(=)
+Min0061-0377=()(PK)(=)(=)
+Min0378-0413=()(TM tt)(=)(=)
+Min0414-0458=()(AS tt)(=)(=)
+Min0459=(Lm)(AS tt)(=)(=)
+Min0460-0606=(L- LM Lm)(AS tt)(=)(=)
+Min0607-0613=()(AS tt)(=)(=)
+Min0614-0726=(L- LM Lm)(AS tt)(=)(=)
+Min0727-0729=(RM L- LM Lm)(AS tt)(=)(=)
+Min0730-0734=(L- LM Lm)(AS tt)(=)(=)
+Min0735=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0736=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0737=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0738=(RM L- LM Lm)(AS tt)(=)(=)
+Min0739-0742=(L- LM Lm)(AS tt)(=)(=)
+Min0743=(RM L- LM Lm)(AS tt)(=)(=)
+Min0744=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0745-0747=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0748=(RM L- LM Lm)(AS tt)(=)(=)
+Min0749-0750=(L- LM Lm)(AS tt)(=)(=)
+Min0751=(RM L- LM Lm)(AS tt)(=)(=)
+Min0752=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0753-0755=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0756=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0757-0759=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0760=(RM L- LM Lm)(AS tt)(=)(=)
+Min0761-0762=(L- LM Lm)(AS tt)(=)(=)
+Min0763=(RM L- LM Lm)(AS tt)(=)(=)
+Min0764=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0765=(L- LM Lm)(AS tt)(=)(=)
+Min0766=(RM L- LM Lm)(AS tt)(=)(=)
+Min0767=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0768-0772=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0773-0775=(RM L- LM Lm)(AS tt)(=)(=)
+Min0776-0792=(L- LM Lm)(AS tt)(=)(=)
+Min0793=(RM L- LM Lm)(AS tt)(=)(=)
+Min0794=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0795=(RM L- LM Lm)(AS tt)(=)(=)
+Min0796=(L- LM Lm)(AS tt)(=)(=)
+Min0797=(RM L- LM Lm)(AS tt)(=)(=)
+Min0798-0801=(L- LM Lm)(AS tt)(=)(=)
+Min0802=(RM L- LM Lm)(AS tt)(=)(=)
+Min0803-0805=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0806=(RM L- LM Lm)(AS tt)(=)(=)
+Min0807=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0808-0810=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0811-0812=(RM L- LM Lm)(AS tt)(=)(=)
+Min0813-1108=(L- LM Lm)(AS tt)(=)(=)
+Min1109-1141=(L- LM Lm)(TM tt)(=)(=)
+Min1142-1311=(L- LM Lm)(PK)(=)(=)
+Min1312=(L- Lm)(PK)(=)(=)
+Min1313=(Lm)(PK)(=)(=)
+Min1314=(L- Lm)(PK)(=)(=)
+Min1315-1329=()(PK)(=)(=)
+Min1330=(Lm)(PK)(=)(=)
+Min1331=(L- Lm)(PK)(=)(=)
+Min1332-1335=(L- LM Lm)(PK)(=)(=)
+Min1336=(L- Lm)(PK)(=)(=)
+Min1337-1439=()(PK)(=)(=)
+Min1440=(D0)(PK)(=)(=)
+
+[Day 092 Minute Listing Grouped]
+Min0001-0031=()(PK)(=)(=)
+Min0032-0060=()(TM tt)(=)(=)
+Min0061-0378=()(PK)(=)(=)
+Min0379-0413=()(TM tt)(=)(=)
+Min0414-0456=()(AS tt)(=)(=)
+Min0457=(Lm)(AS tt)(=)(=)
+Min0458=(L- Lm)(AS tt)(=)(=)
+Min0459-0744=(L- LM Lm)(AS tt)(=)(=)
+Min0745=(RM L- LM Lm)(AS tt)(=)(=)
+Min0746-0753=(L- LM Lm)(AS tt)(=)(=)
+Min0754-0757=(RM L- LM Lm)(AS tt)(=)(=)
+Min0758-0764=(L- LM Lm)(AS tt)(=)(=)
+Min0765=(RM L- LM Lm)(AS tt)(=)(=)
+Min0766-0770=(L- LM Lm)(AS tt)(=)(=)
+Min0771=(RM L- LM Lm)(AS tt)(=)(=)
+Min0772-0773=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0774=(L- LM Lm)(AS tt)(=)(=)
+Min0775-0776=(RM L- LM Lm)(AS tt)(=)(=)
+Min0777-0779=(L- LM Lm)(AS tt)(=)(=)
+Min0780-0782=(RM L- LM Lm)(AS tt)(=)(=)
+Min0783-1107=(L- LM Lm)(AS tt)(=)(=)
+Min1108-1140=(L- LM Lm)(TM tt)(=)(=)
+Min1141-1341=(L- LM Lm)(PK)(=)(=)
+Min1342=(Lm)(PK)(=)(=)
+Min1343-1369=()(PK)(=)(=)
+Min1370=(L- Lm)(PK)(=)(=)
+Min1371-1400=(L- LM Lm)(PK)(=)(=)
+Min1401=(L- Lm)(PK)(=)(=)
+Min1402-1439=()(PK)(=)(=)
+Min1440=(D0)(PK)(=)(=)
+
+[Day 093 Minute Listing Grouped]
+Min0001-0024=()(PK)()(=)
+Min0025=(Lm)(PK)()(=)
+Min0026-0028=(L- Lm)(PK)()(=)
+Min0029-0031=(L- LM Lm)(PK)()(=)
+Min0032-0060=(L- LM Lm)(TM tt)()(=)
+Min0061-0120=(L- LM Lm)(PK)()(=)
+Min0121=(L- Lm)(PK)()(=)
+Min0122=(Lm)(PK)()(=)
+Min0123-0175=()(PK)()(=)
+Min0176=(Lm)(PK)()(=)
+Min0177=(L- Lm)(PK)()(=)
+Min0178-0181=(L- LM Lm)(PK)()(=)
+Min0182-0183=(L- Lm)(PK)()(=)
+Min0184=(L- LM Lm)(PK)()(=)
+Min0185=(L- Lm)(PK)()(=)
+Min0186-0189=(L- LM Lm)(PK)()(=)
+Min0190=(Lm)(PK)()(=)
+Min0191=(L- Lm)(PK)()(=)
+Min0192-0233=(L- LM Lm)(PK)()(=)
+Min0234=(L- Lm)(PK)()(=)
+Min0235-0378=()(PK)()(=)
+Min0379-0413=()(TM tt)()(=)
+Min0414-0423=()(AS tt)()(=)
+Min0424=(Lm)(AS tt)()(=)
+Min0425=(L- Lm)(AS tt)()(=)
+Min0426-0578=(L- LM Lm)(AS tt)()(=)
+Min0579-0580=()(AS tt)()(=)
+Min0581-0583=()(AS tt)(CL)(=)
+Min0584-0644=(L- LM Lm)(AS tt)()(=)
+Min0645-0646=(RM L- LM Lm)(AS tt)()(=)
+Min0647-0648=(R- RM L- LM Lm)(AS tt)()(=)
+Min0649-0650=(R- RM Rm L- LM Lm)(AS tt)()(=)
+Min0651=(R- RM L- LM Lm)(AS tt)()(=)
+Min0652-0654=(R- RM Rm L- LM Lm)(AS tt)()(=)
+Min0655=(RM L- LM Lm)(AS tt)()(=)
+Min0656-0657=(R- RM L- LM Lm)(AS tt)()(=)
+Min0658-0882=(R- RM Rm L- LM Lm)(AS tt)()(=)
+Min0883-0884=(R- RM L- LM Lm)(AS tt)()(=)
+Min0885-0890=(R- RM Rm L- LM Lm)(AS tt)()(=)
+Min0891=(R- RM L- LM Lm)(AS tt)()(=)
+Min0892-1106=(L- LM Lm)(AS tt)()(=)
+Min1107-1139=(L- LM Lm)(TM tt)()(=)
+Min1140-1269=(L- LM Lm)(PK)()(=)
+Min1270=(L- Lm)(PK)()(=)
+Min1271-1439=()(PK)()(=)
+Min1440=(D0)(PK)()(=)
+
+[Day 094 Minute Listing Grouped]
+Min0001-0031=()(PK)()(=)
+Min0032-0060=()(TM tt)()(=)
+Min0061-0378=()(PK)()(=)
+Min0379-0418=()(TM tt)()(=)
+Min0419-0463=()(AS tt)()(=)
+Min0464=(L- Lm)(AS tt)()(=)
+Min0465-0552=(L- LM Lm)(AS tt)()(=)
+Min0553-0554=()(AS tt)()(=)
+Min0555-0557=()(AS tt)(CL)(=)
+Min0558-1100=(L- LM Lm)(AS tt)()(=)
+Min1101-1138=(L- LM Lm)(TM tt)()(=)
+Min1139-1345=(L- LM Lm)(PK)()(=)
+Min1346=(L- Lm)(PK)()(=)
+Min1347-1354=()(PK)()(=)
+Min1355=(Lm)(PK)()(=)
+Min1356-1439=()(PK)()(=)
+Min1440=(D0)(PK)()(=)
+
+[Day 095 Minute Listing Grouped]
+Min0001-0031=()(PK)()(=)
+Min0032-0060=()(TM tt)()(=)
+Min0061-0379=()(PK)()(=)
+Min0380-0413=()(TM tt)()(=)
+Min0414-0477=()(AS tt)()(=)
+Min0478=(L- Lm)(AS tt)()(=)
+Min0479-0483=(L- LM Lm)(TM tt)()(=)
+Min0484-0488=(L- LM Lm)(AS tt)()(=)
+Min0489=(L- LM Lm)(TM tt)()(=)
+Min0490-0495=(L- LM Lm)(AS tt)()(=)
+Min0496-0501=(L- LM Lm)(TM tt)()(=)
+Min0502-0503=(L- LM Lm)(AS tt)()(=)
+Min0504-0505=(L- LM Lm)(TM tt)()(=)
+Min0506-0515=(L- LM Lm)(AS tt)()(=)
+Min0516=(L- LM Lm)(TM tt)()(=)
+Min0517-0538=(L- LM Lm)(AS tt)()(=)
+Min0539=(L- LM Lm)(TM tt)()(=)
+Min0540-0546=(L- LM Lm)(AS tt)()(=)
+Min0547-0548=(L- LM Lm)(TM tt)()(=)
+Min0549-0561=(L- LM Lm)(AS tt)()(=)
+Min0562=(Ld LM Lm)(AS tt)(CL)(=)
+Min0563=(L- LM Lm)(AS tt)(CL)(=)
+Min0564-0567=(L- LM Lm)(AS tt)()(=)
+Min0568=(L- LM Lm)(TM tt)()(=)
+Min0569-0572=(L- LM Lm)(AS tt)()(=)
+Min0573=(L- LM Lm)(TM tt)()(=)
+Min0574-0595=(L- LM Lm)(AS tt)()(=)
+Min0596=(L- LM Lm)(TM tt)()(=)
+Min0597-0825=(L- LM Lm)(AS tt)()(=)
+Min0826=(L- LM Lm)(TM tt)()(=)
+Min0827=(L- LM Lm)(AS tt)()(=)
+Min0828=(L- LM Lm)(TM tt)()(=)
+Min0829-0831=(L- LM Lm)(AS tt)()(=)
+Min0832-0837=(L- LM Lm)(TM tt)()(=)
+Min0838-0839=(L- LM Lm)(AS tt)()(=)
+Min0840=(L- LM Lm)(TM tt)()(=)
+Min0841-0866=(L- LM Lm)(AS tt)()(=)
+Min0867-0896=(L- LM Lm)(TM tt)()(=)
+Min0897-0905=(L- LM Lm)(AS tt)()(=)
+Min0906=(L- LM Lm)(TM tt)()(=)
+Min0907-0911=(L- LM Lm)(AS tt)()(=)
+Min0912-0925=(L- LM Lm)(TM tt)()(=)
+Min0926-1041=(L- LM Lm)(AS tt)()(=)
+Min1042=(L- LM Lm)(TM tt)()(=)
+Min1043-1053=(L- LM Lm)(AS tt)()(=)
+Min1054-1057=(L- LM Lm)(TM tt)()(=)
+Min1058-1080=(L- LM Lm)(AS tt)()(=)
+Min1081-1082=(L- LM Lm)(TM tt)()(=)
+Min1083-1084=(L- LM Lm)(AS tt)()(=)
+Min1085-1095=(L- LM Lm)(TM tt)()(=)
+Min1096-1097=(L- LM Lm)(AS tt)()(=)
+Min1098-1137=(L- LM Lm)(TM tt)()(=)
+Min1138-1305=(L- LM Lm)(PK)()(=)
+Min1306=(L- Lm)(PK)()(=)
+Min1307-1439=()(PK)()(=)
+Min1440=(D0)(PK)()(=)
+
+[Day 096 Minute Listing Grouped]
+Min0001-0031=()(PK)(=)(=)
+Min0032-0060=()(TM tt)(=)(=)
+Min0061-0379=()(PK)(=)(=)
+Min0380-0412=()(TM tt)(=)(=)
+Min0413-0455=()(AS tt)(=)(=)
+Min0456=(Lm)(AS tt)(=)(=)
+Min0457-0672=(L- LM Lm)(AS tt)(=)(=)
+Min0673-0674=(RM L- LM Lm)(AS tt)(=)(=)
+Min0675=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0676=(RM L- LM Lm)(AS tt)(=)(=)
+Min0677-0717=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0718=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0719-0823=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0824=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0825-0827=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0828=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0829-0838=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0839-0841=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0842=(RM L- LM Lm)(AS tt)(=)(=)
+Min0843-1103=(L- LM Lm)(AS tt)(=)(=)
+Min1104-1136=(L- LM Lm)(TM tt)(=)(=)
+Min1137-1292=(L- LM Lm)(PK)(=)(=)
+Min1293-1294=(L- Lm)(PK)(=)(=)
+Min1295=(Lm)(PK)(=)(=)
+Min1296-1439=()(PK)(=)(=)
+Min1440=(D0)(PK)(=)(=)
+
+[Day 097 Minute Listing Grouped]
+Min0001-0031=()(PK)(=)(=)
+Min0032-0060=()(TM tt)(=)(=)
+Min0061-0379=()(PK)(=)(=)
+Min0380-0416=()(TM tt)(=)(=)
+Min0417-0430=()(AS tt)(=)(=)
+Min0431-0433=()(TM tt)(=)(=)
+Min0434-0462=()(AS tt)(=)(=)
+Min0463=(Lm)(AS tt)(=)(=)
+Min0464-0724=(L- LM Lm)(AS tt)(=)(=)
+Min0725=(RM L- LM Lm)(AS tt)(=)(=)
+Min0726=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0727=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0728=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0729-0740=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0741=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0742-0744=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0745=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0746-0750=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0751-0752=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0753=(RM L- LM Lm)(AS tt)(=)(=)
+Min0754=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0755-0762=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0763=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0764-0769=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0770=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0771-0773=(RM L- LM Lm)(AS tt)(=)(=)
+Min0774-0776=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0777=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0778=(RM L- LM Lm)(AS tt)(=)(=)
+Min0779-0782=(L- LM Lm)(AS tt)(=)(=)
+Min0783-0785=(RM L- LM Lm)(AS tt)(=)(=)
+Min0786-1102=(L- LM Lm)(AS tt)(=)(=)
+Min1103-1135=(L- LM Lm)(TM tt)(=)(=)
+Min1136-1279=(L- LM Lm)(PK)(=)(=)
+Min1280-1281=(L- Lm)(PK)(=)(=)
+Min1282-1308=(L- LM Lm)(PK)(=)(=)
+Min1309=(L- Lm)(PK)(=)(=)
+Min1310-1336=()(PK)(=)(=)
+Min1337=(Lm)(PK)(=)(=)
+Min1338=(L- Lm)(PK)(=)(=)
+Min1339-1352=(L- LM Lm)(PK)(=)(=)
+Min1353=(L- Lm)(PK)(=)(=)
+Min1354-1355=(Lm)(PK)(=)(=)
+Min1356-1359=()(PK)(=)(=)
+Min1360=(Lm)(PK)(=)(=)
+Min1361=(L- Lm)(PK)(=)(=)
+Min1362=(Lm)(PK)(=)(=)
+Min1363-1439=()(PK)(=)(=)
+Min1440=(D0)(PK)(=)(=)
+
+[Day 098 Minute Listing Grouped]
+Min0001-0031=()(PK)(=)(=)
+Min0032-0060=()(TM tt)(=)(=)
+Min0061-0380=()(PK)(=)(=)
+Min0381-0416=()(TM tt)(=)(=)
+Min0417-0460=()(AS tt)(=)(=)
+Min0461=(L- Lm)(AS tt)(=)(=)
+Min0462-0694=(L- LM Lm)(AS tt)(=)(=)
+Min0695=(RM L- LM Lm)(AS tt)(=)(=)
+Min0696-0716=(L- LM Lm)(AS tt)(=)(=)
+Min0717-0720=(RM L- LM Lm)(AS tt)(=)(=)
+Min0721=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0722-0772=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0773-0776=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0777=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0778=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0779-0790=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0791=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0792-0793=(RM L- LM Lm)(AS tt)(=)(=)
+Min0794-1101=(L- LM Lm)(AS tt)(=)(=)
+Min1102-1134=(L- LM Lm)(TM tt)(=)(=)
+Min1135-1365=(L- LM Lm)(PK)(=)(=)
+Min1366=(L- Lm)(PK)(=)(=)
+Min1367=(Lm)(PK)(=)(=)
+Min1368-1439=()(PK)(=)(=)
+Min1440=(D0)(PK)(=)(=)
+
+[Day 099 Minute Listing Grouped]
+Min0001-0031=()(PK)()(=)
+Min0032-0060=()(TM tt)()(=)
+Min0061-0380=()(PK)()(=)
+Min0381-0417=()(TM tt)()(=)
+Min0418-0480=()(AS tt)()(=)
+Min0481=(Lm)(AS tt)()(=)
+Min0482-0540=(L- LM Lm)(AS tt)()(=)
+Min0541-0542=(L- LM Lm)(X)()(=)
+Min0543-0559=(L- LM Lm)(AS tt)()(=)
+Min0560=()(AS tt)()(=)
+Min0561-0562=()(AS tt)(CL)(=)
+Min0563-0757=(L- LM Lm)(AS tt)()(=)
+Min0758-0760=(L- LM Lm)(TM tt)()(=)
+Min0761-0766=(L- LM Lm)(AS tt)()(=)
+Min0767=(RM L- LM Lm)(AS tt)()(=)
+Min0768-0769=(L- LM Lm)(TM tt)()(=)
+Min0770=(RM L- LM Lm)(TM tt)()(=)
+Min0771=(RM L- LM Lm)(AS tt)()(=)
+Min0772-0773=(L- LM Lm)(TM tt)()(=)
+Min0774-0775=(L- LM Lm)(AS tt)()(=)
+Min0776-0779=(L- LM Lm)(TM tt)()(=)
+Min0780-0789=(L- LM Lm)(AS tt)()(=)
+Min0790-0795=(L- LM Lm)(TM tt)()(=)
+Min0796-0816=(L- LM Lm)(AS tt)()(=)
+Min0817-0825=(L- LM Lm)(TM tt)()(=)
+Min0826-0835=(L- LM Lm)(AS tt)()(=)
+Min0836-0838=(L- LM Lm)(TM tt)()(=)
+Min0839-0853=(L- LM Lm)(AS tt)()(=)
+Min0854=(L- LM Lm)(TM tt)()(=)
+Min0855=(L- LM Lm)(AS tt)()(=)
+Min0856-0860=(L- LM Lm)(TM tt)()(=)
+Min0861-0863=(L- LM Lm)(AS tt)()(=)
+Min0864-0868=(L- LM Lm)(TM tt)()(=)
+Min0869=(L- LM Lm)(AS tt)()(=)
+Min0870-0879=(L- LM Lm)(TM tt)()(=)
+Min0880=(L- LM Lm)(AS tt)()(=)
+Min0881=(L- LM Lm)(TM tt)()(=)
+Min0882-0911=(L- LM Lm)(AS tt)()(=)
+Min0912=(L- LM Lm)(TM tt)()(=)
+Min0913-0917=(L- LM Lm)(AS tt)()(=)
+Min0918=(L- LM Lm)(TM tt)()(=)
+Min0919=(L- LM Lm)(AS tt)()(=)
+Min0920-0939=(L- LM Lm)(TM tt)()(=)
+Min0940-1096=(L- LM Lm)(AS tt)()(=)
+Min1097-1098=(L- LM Lm)(TM tt)()(=)
+Min1099=(L- LM Lm)(AS tt)()(=)
+Min1100-1134=(L- LM Lm)(TM tt)()(=)
+Min1135-1311=(L- LM Lm)(PK)()(=)
+Min1312=(L- Lm)(PK)()(=)
+Min1313-1439=()(PK)()(=)
+Min1440=(D0)(PK)()(=)
+
+[Day 100 Minute Listing Grouped]
+Min0001-0031=()(PK)()(=)
+Min0032-0060=()(TM tt)()(=)
+Min0061-0381=()(PK)()(=)
+Min0382-0425=()(TM tt)()(=)
+Min0426-0437=()(AS tt)()(=)
+Min0438-0443=()(TM tt)()(=)
+Min0444-0446=()(AS tt)()(=)
+Min0447-0459=()(TM tt)()(=)
+Min0460=()(AS tt)()(=)
+Min0461=()(TM tt)()(=)
+Min0462-0463=()(AS tt)()(=)
+Min0464=()(TM tt)()(=)
+Min0465=()(AS tt)()(=)
+Min0466=()(TM tt)()(=)
+Min0467-0478=()(AS tt)()(=)
+Min0479=()(TM tt)()(=)
+Min0480-0485=()(AS tt)()(=)
+Min0486=()(TM tt)()(=)
+Min0487-0495=()(AS tt)()(=)
+Min0496=(L- Lm)(AS tt)()(=)
+Min0497-0499=(L- LM Lm)(AS tt)()(=)
+Min0500-0503=(L- LM Lm)(TM tt)()(=)
+Min0504=(L- Lm)(TM tt)()(=)
+Min0505=(Lm)(TM tt)()(=)
+Min0506-0509=()(TM tt)()(=)
+Min0510-0513=()(AS tt)()(=)
+Min0514=(Lm)(AS tt)()(=)
+Min0515=(L- LM Lm)(AS tt)()(=)
+Min0516-0518=(L- Lm)(AS tt)()(=)
+Min0519-0546=(L- LM Lm)(AS tt)()(=)
+Min0547-0554=(L- LM Lm)(TM tt)()(=)
+Min0555=(Ld LM Lm)(TM tt)(CL)(=)
+Min0556=(Ld Lm)(TM tt)(CL)(=)
+Min0557=(L- Lm)(TM tt)(CL)(=)
+Min0558-0616=()(TM tt)()(=)
+Min0617=()(AS tt)()(=)
+Min0618-0619=()(TM tt)()(=)
+Min0620=(L- Lm)(TM tt)()(=)
+Min0621=(L- LM Lm)(AS tt)()(=)
+Min0622-0627=(L- LM Lm)(TM tt)()(=)
+Min0628-0629=(L- LM Lm)(AS tt)()(=)
+Min0630-0642=(L- LM Lm)(TM tt)()(=)
+Min0643=(L- LM Lm)(AS tt)()(=)
+Min0644=(L- LM Lm)(TM tt)()(=)
+Min0645=(L- LM Lm)(AS tt)()(=)
+Min0646=(L- LM Lm)(TM tt)()(=)
+Min0647-0661=(L- LM Lm)(AS tt)()(=)
+Min0662-0666=(L- LM Lm)(TM tt)()(=)
+Min0667-0669=(L- LM Lm)(AS tt)()(=)
+Min0670-0675=(L- LM Lm)(TM tt)()(=)
+Min0676=(GM L- LM Lm)(AS tt)()(=)
+Min0677=(G- GM L- LM Lm)(AS tt)()(=)
+Min0678=(L- LM Lm)(TM tt)()(=)
+Min0679=(L- LM Lm)(AS tt)()(=)
+Min0680=(L- LM Lm)(TM tt)()(=)
+Min0681-0683=(L- LM Lm)(AS tt)()(=)
+Min0684-0688=(L- LM Lm)(TM tt)()(=)
+Min0689-0693=(L- LM Lm)(AS tt)()(=)
+Min0694-0698=(L- LM Lm)(TM tt)()(=)
+Min0699=(L- LM Lm)(AS tt)()(=)
+Min0700=(GM L- LM Lm)(TM tt)()(=)
+Min0701-0707=(L- LM Lm)(TM tt)()(=)
+Min0708-0709=(GM L- LM Lm)(AS tt)()(=)
+Min0710=(L- LM Lm)(TM tt)()(=)
+Min0711-0753=(L- LM Lm)(AS tt)()(=)
+Min0754-0755=(L- LM Lm)(TM tt)()(=)
+Min0756-0784=(L- LM Lm)(AS tt)()(=)
+Min0785=(L- LM Lm)(TM tt)()(=)
+Min0786-0791=(L- LM Lm)(AS tt)()(=)
+Min0792-0793=(L- LM Lm)(TM tt)()(=)
+Min0794-0802=(L- LM Lm)(AS tt)()(=)
+Min0803-0807=(L- LM Lm)(TM tt)()(=)
+Min0808-0816=(L- LM Lm)(AS tt)()(=)
+Min0817=(L- LM Lm)(TM tt)()(=)
+Min0818-0820=(L- LM Lm)(AS tt)()(=)
+Min0821=(L- LM Lm)(TM tt)()(=)
+Min0822-0824=(L- LM Lm)(AS tt)()(=)
+Min0825=(L- LM Lm)(TM tt)()(=)
+Min0826-0831=(L- LM Lm)(AS tt)()(=)
+Min0832-0835=(L- LM Lm)(TM tt)()(=)
+Min0836-0837=(L- LM Lm)(AS tt)()(=)
+Min0838-0840=(L- LM Lm)(TM tt)()(=)
+Min0841-0845=(L- LM Lm)(AS tt)()(=)
+Min0846=(L- LM Lm)(TM tt)()(=)
+Min0847=(L- LM Lm)(AS tt)()(=)
+Min0848-0853=(L- LM Lm)(TM tt)()(=)
+Min0854-0858=(L- LM Lm)(AS tt)()(=)
+Min0859-0863=(L- LM Lm)(TM tt)()(=)
+Min0864-0865=(Lm)(TM tt)()(=)
+Min0866-0867=()(TM tt)()(=)
+Min0868=()(AS tt)()(=)
+Min0869-0871=()(TM tt)()(=)
+Min0872=()(AS tt)()(=)
+Min0873=()(TM tt)()(=)
+Min0874=(L- Lm)(TM tt)()(=)
+Min0875-0876=(L- LM Lm)(TM tt)()(=)
+Min0877=(L- Lm)(AS tt)()(=)
+Min0878=(L- LM Lm)(AS tt)()(=)
+Min0879-0884=(L- LM Lm)(TM tt)()(=)
+Min0885=(L- Lm)(TM tt)()(=)
+Min0886-0918=()(TM tt)()(=)
+Min0919-0926=()(AS tt)()(=)
+Min0927-0930=()(TM tt)()(=)
+Min0931=()(AS tt)()(=)
+Min0932-0935=()(TM tt)()(=)
+Min0936=(Lm)(TM tt)()(=)
+Min0937-0940=(L- LM Lm)(TM tt)()(=)
+Min0941=(L- LM Lm)(AS tt)()(=)
+Min0942-0950=(L- LM Lm)(TM tt)()(=)
+Min0951=(L- LM Lm)(AS tt)()(=)
+Min0952=(L- LM Lm)(TM tt)()(=)
+Min0953-0958=(L- LM Lm)(AS tt)()(=)
+Min0959=(L- Lm)(AS tt)()(=)
+Min0960=(Lm)(AS tt)()(=)
+Min0961=()(AS tt)()(=)
+Min0962-0964=()(TM tt)()(=)
+Min0965-0967=()(AS tt)()(=)
+Min0968=()(TM tt)()(=)
+Min0969-0971=()(AS tt)()(=)
+Min0972=()(TM tt)()(=)
+Min0973-0974=()(AS tt)()(=)
+Min0975=(Lm)(AS tt)()(=)
+Min0976-0984=()(TM tt)()(=)
+Min0985-0987=()(AS tt)()(=)
+Min0988-0989=()(TM tt)()(=)
+Min0990-0993=()(AS tt)()(=)
+Min0994-0997=()(TM tt)()(=)
+Min0998=()(AS tt)()(=)
+Min0999-1023=()(TM tt)()(=)
+Min1024=()(AS tt)()(=)
+Min1025-1026=()(TM tt)()(=)
+Min1027-1030=()(AS tt)()(=)
+Min1031-1085=()(TM tt)()(=)
+Min1086-1095=()(AS tt)()(=)
+Min1096-1127=()(TM tt)()(=)
+Min1128=(LM)(TM tt)()(=)
+Min1129-1130=(L- LM)(TM tt)()(=)
+Min1131=(L- LM Lm)(TM tt)()(=)
+Min1132=(L- LM)(TM tt)()(=)
+Min1133=(LM)(TM tt)()(=)
+Min1134-1439=()(PK)()(=)
+Min1440=(D0)(PK)()(=)
+
+[Day 101 Minute Listing Grouped]
+Min0001-0031=()(PK)(=)(=)
+Min0032-0060=()(TM tt)(=)(=)
+Min0061-0381=()(PK)(=)(=)
+Min0382-0412=()(TM tt)(=)(=)
+Min0413=(L- LM)(TM tt)(=)(=)
+Min0414-0416=(L- LM Lm)(TM tt)(=)(=)
+Min0417=(LM)(TM tt)(=)(=)
+Min0418=()(TM tt)(=)(=)
+Min0419=(L- LM)(TM tt)(=)(=)
+Min0420-0422=(L- LM Lm)(TM tt)(=)(=)
+Min0423=(L- LM)(TM tt)(=)(=)
+Min0424-0574=()(TM tt)(=)(=)
+Min0575=(Ld LM)(TM tt)(=)(=)
+Min0576-1019=()(TM tt)(=)(=)
+Min1020-1021=()(AS tt)(=)(=)
+Min1022=()(TM tt)(=)(=)
+Min1023=()(AS tt)(=)(=)
+Min1024-1050=()(TM tt)(=)(=)
+Min1051-1053=()(AS tt)(=)(=)
+Min1054-1055=()(TM tt)(=)(=)
+Min1056-1059=()(AS tt)(=)(=)
+Min1060=(L- Lm)(AS tt)(=)(=)
+Min1061-1070=(L- LM Lm)(AS tt)(=)(=)
+Min1071-1072=(L- LM Lm)(TM tt)(=)(=)
+Min1073-1078=(L- LM Lm)(AS tt)(=)(=)
+Min1079-1083=(L- LM Lm)(TM tt)(=)(=)
+Min1084=(L- Lm)(TM tt)(=)(=)
+Min1085-1132=()(TM tt)(=)(=)
+Min1133-1439=()(PK)(=)(=)
+Min1440=(D0)(PK)(=)(=)
+
+[Day 102 Minute Listing Grouped]
+Min0001-0031=()(PK)(=)(=)
+Min0032-0060=()(TM tt)(=)(=)
+Min0061-0381=()(PK)(=)(=)
+Min0382-0522=()(TM tt)(=)(=)
+Min0523-0524=()(AS tt)(=)(=)
+Min0525-0531=()(TM tt)(=)(=)
+Min0532-0533=()(AS tt)(=)(=)
+Min0534-0640=()(TM tt)(=)(=)
+Min0641=(L- Lm)(TM tt)(=)(=)
+Min0642-0644=(L- LM Lm)(TM tt)(=)(=)
+Min0645-0649=(L- LM Lm)(AS tt)(=)(=)
+Min0650-0655=(L- LM Lm)(TM tt)(=)(=)
+Min0656-0865=(L- LM Lm)(AS tt)(=)(=)
+Min0866-0872=(L- LM Lm)(TM tt)(=)(=)
+Min0873-0875=(L- LM Lm)(AS tt)(=)(=)
+Min0876-0881=(L- LM Lm)(TM tt)(=)(=)
+Min0882-0885=(L- LM Lm)(AS tt)(=)(=)
+Min0886=(L- LM Lm)(TM tt)(=)(=)
+Min0887=(L- LM Lm)(AS tt)(=)(=)
+Min0888-0909=(L- LM Lm)(TM tt)(=)(=)
+Min0910-0925=(L- LM Lm)(AS tt)(=)(=)
+Min0926-0955=(L- LM Lm)(TM tt)(=)(=)
+Min0956=(L- LM Lm)(AS tt)(=)(=)
+Min0957=(L- LM Lm)(TM tt)(=)(=)
+Min0958-1030=(L- LM Lm)(AS tt)(=)(=)
+Min1031-1032=(L- LM Lm)(TM tt)(=)(=)
+Min1033-1046=(L- LM Lm)(AS tt)(=)(=)
+Min1047-1058=(L- LM Lm)(TM tt)(=)(=)
+Min1059=(L- LM Lm)(AS tt)(=)(=)
+Min1060-1071=(L- LM Lm)(TM tt)(=)(=)
+Min1072-1078=(L- LM Lm)(AS tt)(=)(=)
+Min1079-1131=(L- LM Lm)(TM tt)(=)(=)
+Min1132-1269=(L- LM Lm)(PK)(=)(=)
+Min1270=(L- Lm)(PK)(=)(=)
+Min1271-1439=()(PK)(=)(=)
+Min1440=(D0)(PK)(=)(=)
+
+[Day 103 Minute Listing Grouped]
+Min0001-0031=()(PK)()(=)
+Min0032-0060=()(TM tt)()(=)
+Min0061-0382=()(PK)()(=)
+Min0383-0420=()(TM tt)()(=)
+Min0421-0475=()(AS tt)()(=)
+Min0476=(Lm)(AS tt)()(=)
+Min0477-0557=(L- LM Lm)(AS tt)()(=)
+Min0558=()(AS tt)()(=)
+Min0559-0561=()(AS tt)(CL)(=)
+Min0562-0906=(L- LM Lm)(AS tt)()(=)
+Min0907-0908=(L- LM Lm)(TM tt)()(=)
+Min0909-0957=(L- LM Lm)(AS tt)()(=)
+Min0958-0986=(L- LM Lm)(TM tt)()(=)
+Min0987-0997=(L- LM Lm)(AS tt)()(=)
+Min0998=(L- LM Lm)(TM tt)()(=)
+Min0999-1073=(L- LM Lm)(AS tt)()(=)
+Min1074=(L- LM Lm)(TM tt)()(=)
+Min1075-1076=(L- LM Lm)(AS tt)()(=)
+Min1077-1130=(L- LM Lm)(TM tt)()(=)
+Min1131-1160=(L- LM Lm)(PK)()(=)
+Min1161=(L- Lm)(PK)()(=)
+Min1162=(Lm)(PK)()(=)
+Min1163-1194=()(PK)()(=)
+Min1195=(L- Lm)(PK)()(=)
+Min1196-1218=(L- LM Lm)(PK)()(=)
+Min1219=(Lm)(PK)()(=)
+Min1220-1268=()(PK)()(=)
+Min1269=(L- Lm)(PK)()(=)
+Min1270-1271=(L- LM Lm)(PK)()(=)
+Min1272=(Lm)(PK)()(=)
+Min1273-1415=()(PK)()(=)
+Min1416=(Lm)(PK)()(=)
+Min1417-1421=(L- LM Lm)(PK)()(=)
+Min1422=(Lm)(PK)()(=)
+Min1423-1439=()(PK)()(=)
+Min1440=(D0)(PK)()(=)
+
+[Day 104 Minute Listing Grouped]
+Min0001-0031=()(PK)(=)(=)
+Min0032-0040=()(TM tt)(=)(=)
+Min0041=(L- Lm)(TM tt)(=)(=)
+Min0042-0060=(L- LM Lm)(TM tt)(=)(=)
+Min0061-0132=(L- LM Lm)(PK)(=)(=)
+Min0133-0136=(L- Lm)(PK)(=)(=)
+Min0137-0160=()(PK)(=)(=)
+Min0161=(Lm)(PK)(=)(=)
+Min0162-0168=()(PK)(=)(=)
+Min0169=(Lm)(PK)(=)(=)
+Min0170-0382=()(PK)(=)(=)
+Min0383-0420=()(TM tt)(=)(=)
+Min0421-0438=()(AS tt)(=)(=)
+Min0439=()(TM tt)(=)(=)
+Min0440-0456=()(AS tt)(=)(=)
+Min0457=(Lm)(AS tt)(=)(=)
+Min0458-0460=(L- LM Lm)(AS tt)(=)(=)
+Min0461-0463=(L- LM Lm)(TM tt)(=)(=)
+Min0464=(L- LM Lm)(AS tt)(=)(=)
+Min0465-0466=(L- LM Lm)(TM tt)(=)(=)
+Min0467-0469=(L- LM Lm)(AS tt)(=)(=)
+Min0470-0471=(L- LM Lm)(TM tt)(=)(=)
+Min0472=(L- LM Lm)(AS tt)(=)(=)
+Min0473-0475=(L- LM Lm)(TM tt)(=)(=)
+Min0476=(L- LM Lm)(AS tt)(=)(=)
+Min0477=(L- LM Lm)(TM tt)(=)(=)
+Min0478-0483=(L- LM Lm)(AS tt)(=)(=)
+Min0484=(L- LM Lm)(TM tt)(=)(=)
+Min0485-0514=(L- LM Lm)(AS tt)(=)(=)
+Min0515-0516=(L- LM Lm)(TM tt)(=)(=)
+Min0517-0520=(L- LM Lm)(AS tt)(=)(=)
+Min0521-0523=(L- LM Lm)(TM tt)(=)(=)
+Min0524-0528=(L- LM Lm)(AS tt)(=)(=)
+Min0529-0534=(L- LM Lm)(TM tt)(=)(=)
+Min0535-1087=(L- LM Lm)(AS tt)(=)(=)
+Min1088-1129=(L- LM Lm)(TM tt)(=)(=)
+Min1130-1185=(L- LM Lm)(PK)(=)(=)
+Min1186=(L- Lm)(PK)(=)(=)
+Min1187-1192=(L- LM Lm)(PK)(=)(=)
+Min1193=(L- Lm)(PK)(=)(=)
+Min1194=(Lm)(PK)(=)(=)
+Min1195-1234=()(PK)(=)(=)
+Min1235=(L- Ld Lm)(PK)(=)(=)
+Min1236-1340=(L- LM Lm)(PK)(=)(=)
+Min1341=(L- Lm)(PK)(=)(=)
+Min1342-1426=()(PK)(=)(=)
+Min1427=(L- Lm)(PK)(=)(=)
+Min1428-1439=(L- LM Lm)(PK)(=)(=)
+Min1440=(D0 L- LM Lm)(PK)(=)(=)
+
+[Day 105 Minute Listing Grouped]
+Min0001-0031=(L- LM Lm)(PK)(=)(=)
+Min0032-0037=(L- LM Lm)(TM tt)(=)(=)
+Min0038=(L- Lm)(TM tt)(=)(=)
+Min0039-0060=()(TM tt)(=)(=)
+Min0061-0382=()(PK)(=)(=)
+Min0383-0420=()(TM tt)(=)(=)
+Min0421-0457=()(AS tt)(=)(=)
+Min0458=(Lm)(AS tt)(=)(=)
+Min0459-1093=(L- LM Lm)(AS tt)(=)(=)
+Min1094-1128=(L- LM Lm)(TM tt)(=)(=)
+Min1129-1308=(L- LM Lm)(PK)(=)(=)
+Min1309-1310=(L- Lm)(PK)(=)(=)
+Min1311=(Lm)(PK)(=)(=)
+Min1312-1439=()(PK)(=)(=)
+Min1440=(D0)(PK)(=)(=)
+
+[Day 106 Minute Listing Grouped]
+Min0001-0031=()(PK)()(=)
+Min0032-0060=()(TM tt)()(=)
+Min0061-0383=()(PK)()(=)
+Min0384-0415=()(TM tt)()(=)
+Min0416=()(AS tt)()(=)
+Min0417-0419=()(TM tt)()(=)
+Min0420-0466=()(AS tt)()(=)
+Min0467=(L- Lm)(AS tt)()(=)
+Min0468-0565=(L- LM Lm)(AS tt)()(=)
+Min0566=()(AS tt)()(=)
+Min0567-0569=()(AS tt)(CL)(=)
+Min0570-0745=(L- LM Lm)(AS tt)()(=)
+Min0746=(RM L- LM Lm)(AS tt)()(=)
+Min0747-0748=(R- RM L- LM Lm)(AS tt)()(=)
+Min0749-0776=(L- LM Lm)(AS tt)()(=)
+Min0777=(RM L- LM Lm)(AS tt)()(=)
+Min0778=(R- RM L- LM Lm)(AS tt)()(=)
+Min0779-0781=(R- RM Rm L- LM Lm)(AS tt)()(=)
+Min0782=(RM L- LM Lm)(AS tt)()(=)
+Min0783-0790=(L- LM Lm)(AS tt)()(=)
+Min0791-0792=(RM L- LM Lm)(AS tt)()(=)
+Min0793-1084=(L- LM Lm)(AS tt)()(=)
+Min1085-1127=(L- LM Lm)(TM tt)()(=)
+Min1128-1340=(L- LM Lm)(PK)()(=)
+Min1341=(Lm)(PK)()(=)
+Min1342-1439=()(PK)()(=)
+Min1440=(D0)(PK)()(=)
+
+[Day 107 Minute Listing Grouped]
+Min0001-0031=()(PK)()(=)
+Min0032-0060=()(TM tt)()(=)
+Min0061-0383=()(PK)()(=)
+Min0384-0413=()(TM tt)()(=)
+Min0414-0467=()(AS tt)()(=)
+Min0468=(Lm)(AS tt)()(=)
+Min0469-0536=(L- LM Lm)(AS tt)()(=)
+Min0537-0538=()(AS tt)()(=)
+Min0539-0541=()(AS tt)(CL)(=)
+Min0542-0621=(L- LM Lm)(AS tt)()(=)
+Min0622-0623=(RM L- LM Lm)(AS tt)()(=)
+Min0624-0678=(L- LM Lm)(AS tt)()(=)
+Min0679=(RM L- LM Lm)(AS tt)()(=)
+Min0680-0681=(L- LM Lm)(AS tt)()(=)
+Min0682=(RM L- LM Lm)(AS tt)()(=)
+Min0683=(R- RM L- LM Lm)(AS tt)()(=)
+Min0684-0685=(RM L- LM Lm)(AS tt)()(=)
+Min0686=(L- LM Lm)(AS tt)()(=)
+Min0687-0688=(R- RM L- LM Lm)(AS tt)()(=)
+Min0689-0693=(R- RM Rm L- LM Lm)(AS tt)()(=)
+Min0694-0696=(R- RM L- LM Lm)(AS tt)()(=)
+Min0697=(R- RM Rm L- LM Lm)(AS tt)()(=)
+Min0698-0699=(R- RM L- LM Lm)(AS tt)()(=)
+Min0700-0816=(R- RM Rm L- LM Lm)(AS tt)()(=)
+Min0817=(R- RM L- LM Lm)(AS tt)()(=)
+Min0818=(RM L- LM Lm)(AS tt)()(=)
+Min0819=(R- RM L- LM Lm)(AS tt)()(=)
+Min0820-0826=(R- RM Rm L- LM Lm)(AS tt)()(=)
+Min0827=(R- RM L- LM Lm)(AS tt)()(=)
+Min0828-0836=(R- RM Rm L- LM Lm)(AS tt)()(=)
+Min0837-0838=(R- RM L- LM Lm)(AS tt)()(=)
+Min0839=(R- RM Rm L- LM Lm)(AS tt)()(=)
+Min0840=(R- RM L- LM Lm)(AS tt)()(=)
+Min0841-1087=(L- LM Lm)(AS tt)()(=)
+Min1088-1126=(L- LM Lm)(TM tt)()(=)
+Min1127-1295=(L- LM Lm)(PK)()(=)
+Min1296-1297=(Lm)(PK)()(=)
+Min1298-1439=()(PK)()(=)
+Min1440=(D0)(PK)()(=)
+
+[Day 108 Minute Listing Grouped]
+Min0001-0031=()(PK)(=)(=)
+Min0032-0060=()(TM tt)(=)(=)
+Min0061-0383=()(PK)(=)(=)
+Min0384-0419=()(TM tt)(=)(=)
+Min0420-0468=()(AS tt)(=)(=)
+Min0469-0470=()(X)(=)(=)
+Min0471-0483=()(AS tt)(=)(=)
+Min0484=(L- Lm)(AS tt)(=)(=)
+Min0485-1085=(L- LM Lm)(AS tt)(=)(=)
+Min1086-1126=(L- LM Lm)(TM tt)(=)(=)
+Min1127-1291=(L- LM Lm)(PK)(=)(=)
+Min1292-1294=(L- Lm)(PK)(=)(=)
+Min1295-1297=(L- LM Lm)(PK)(=)(=)
+Min1298-1299=(L- Lm)(PK)(=)(=)
+Min1300-1302=(L- LM Lm)(PK)(=)(=)
+Min1303=(L- Lm)(PK)(=)(=)
+Min1304-1312=(L- LM Lm)(PK)(=)(=)
+Min1313-1316=(L- Lm)(PK)(=)(=)
+Min1317-1325=(L- LM Lm)(PK)(=)(=)
+Min1326-1328=(L- Lm)(PK)(=)(=)
+Min1329=(Lm)(PK)(=)(=)
+Min1330=(L- Lm)(PK)(=)(=)
+Min1331-1335=(L- LM Lm)(PK)(=)(=)
+Min1336=(Lm)(PK)(=)(=)
+Min1337-1439=()(PK)(=)(=)
+Min1440=(D0)(PK)(=)(=)
+
+[Day 109 Minute Listing Grouped]
+Min0001-0031=()(PK)()(=)
+Min0032-0060=()(TM tt)()(=)
+Min0061-0384=()(PK)()(=)
+Min0385-0421=()(TM tt)()(=)
+Min0422-0443=()(AS tt)()(=)
+Min0444=()(TM tt)()(=)
+Min0445-0459=()(AS tt)()(=)
+Min0460-0489=()(TM tt)()(=)
+Min0490-0493=()(AS tt)()(=)
+Min0494-0550=()(TM tt)()(=)
+Min0551=()(TM tt)(CL)(=)
+Min0552=(Ld)(TM tt)(CL)(=)
+Min0553=()(TM tt)(CL)(=)
+Min0554-0587=()(TM tt)()(=)
+Min0588=(Lm)(TM tt)()(=)
+Min0589-0610=(L- LM Lm)(TM tt)()(=)
+Min0611=(L- LM Lm)(AS tt)()(=)
+Min0612-0615=(L- LM Lm)(TM tt)()(=)
+Min0616=(L- LM Lm)(AS tt)()(=)
+Min0617-0622=(L- LM Lm)(TM tt)()(=)
+Min0623-0640=(L- LM Lm)(AS tt)()(=)
+Min0641=(L- LM Lm)(TM tt)()(=)
+Min0642-0646=(L- LM Lm)(AS tt)()(=)
+Min0647-0648=(L- LM Lm)(TM tt)()(=)
+Min0649-0652=(L- LM Lm)(AS tt)()(=)
+Min0653-0658=(L- LM Lm)(TM tt)()(=)
+Min0659-0660=(L- LM Lm)(AS tt)()(=)
+Min0661=(L- LM Lm)(TM tt)()(=)
+Min0662=(L- LM Lm)(AS tt)()(=)
+Min0663-0672=(L- LM Lm)(TM tt)()(=)
+Min0673-0682=(L- LM Lm)(AS tt)()(=)
+Min0683-0707=(L- LM Lm)(TM tt)()(=)
+Min0708-0745=(L- LM Lm)(AS tt)()(=)
+Min0746-0747=(L- LM Lm)(TM tt)()(=)
+Min0748-0880=(L- LM Lm)(AS tt)()(=)
+Min0881-0893=(L- LM Lm)(TM tt)()(=)
+Min0894-0895=(L- LM Lm)(AS tt)()(=)
+Min0896-0903=(L- LM Lm)(TM tt)()(=)
+Min0904=(L- LM Lm)(AS tt)()(=)
+Min0905=(L- LM Lm)(TM tt)()(=)
+Min0906=(L- LM Lm)(AS tt)()(=)
+Min0907-0913=(L- LM Lm)(TM tt)()(=)
+Min0914-0929=(L- LM Lm)(AS tt)()(=)
+Min0930-0991=(L- LM Lm)(TM tt)()(=)
+Min0992=(L- LM Lm)(AS tt)()(=)
+Min0993=(L- LM Lm)(TM tt)()(=)
+Min0994-0998=(L- LM Lm)(AS tt)()(=)
+Min0999-1008=(L- LM Lm)(TM tt)()(=)
+Min1009-1013=(L- LM Lm)(AS tt)()(=)
+Min1014-1023=(L- LM Lm)(TM tt)()(=)
+Min1024=(L- LM Lm)(AS tt)()(=)
+Min1025-1029=(L- LM Lm)(TM tt)()(=)
+Min1030=(L- LM Lm)(AS tt)()(=)
+Min1031=(L- LM Lm)(TM tt)()(=)
+Min1032-1042=(L- LM Lm)(AS tt)()(=)
+Min1043-1045=(L- LM Lm)(TM tt)()(=)
+Min1046-1047=(L- LM Lm)(AS tt)()(=)
+Min1048-1049=(L- LM Lm)(TM tt)()(=)
+Min1050-1055=(L- LM Lm)(AS tt)()(=)
+Min1056-1079=(L- LM Lm)(TM tt)()(=)
+Min1080=(Lm)(TM tt)()(=)
+Min1081-1082=()(AS tt)()(=)
+Min1083-1107=()(TM tt)()(=)
+Min1108=(L- Lm)(TM tt)()(=)
+Min1109-1124=(L- LM Lm)(TM tt)()(=)
+Min1125-1173=(L- LM Lm)(PK)()(=)
+Min1174=(Lm)(PK)()(=)
+Min1175-1349=()(PK)()(=)
+Min1350=(Lm)(PK)()(=)
+Min1351-1439=(L- LM Lm)(PK)()(=)
+Min1440=(D0 L- LM Lm)(PK)()(=)
+
+[Day 110 Minute Listing Grouped]
+Min0001-0005=(L- LM Lm)(PK)(=)(=)
+Min0006=(L- Lm)(PK)(=)(=)
+Min0007=(Lm)(PK)(=)(=)
+Min0008-0031=()(PK)(=)(=)
+Min0032-0060=()(TM tt)(=)(=)
+Min0061-0384=()(PK)(=)(=)
+Min0385-0421=()(TM tt)(=)(=)
+Min0422-0461=()(AS tt)(=)(=)
+Min0462=()(TM tt)(=)(=)
+Min0463-0472=()(AS tt)(=)(=)
+Min0473=(L- Lm)(AS tt)(=)(=)
+Min0474-0645=(L- LM Lm)(AS tt)(=)(=)
+Min0646-0685=(L- LM Lm)(TM tt)(=)(=)
+Min0686=(L- Lm)(TM tt)(=)(=)
+Min0687-0688=(Lm)(TM tt)(=)(=)
+Min0689-0709=(L- LM Lm)(TM tt)(=)(=)
+Min0710=(GM L- LM Lm)(TM tt)(=)(=)
+Min0711-0714=(L- LM Lm)(TM tt)(=)(=)
+Min0715=(GM L- LM Lm)(TM tt)(=)(=)
+Min0716=(G- GM Gm L- LM Lm)(AS tt)(=)(=)
+Min0717=(GM L- LM Lm)(AS tt)(=)(=)
+Min0718=(L- LM Lm)(AS tt)(=)(=)
+Min0719-0721=(L- LM Lm)(TM tt)(=)(=)
+Min0722-0723=(L- LM Lm)(AS tt)(=)(=)
+Min0724-0737=(L- LM Lm)(TM tt)(=)(=)
+Min0738=(GM L- LM Lm)(AS tt)(=)(=)
+Min0739=(L- LM Lm)(AS tt)(=)(=)
+Min0740-0742=(L- LM Lm)(TM tt)(=)(=)
+Min0743-0748=(L- LM Lm)(AS tt)(=)(=)
+Min0749-0754=(L- LM Lm)(TM tt)(=)(=)
+Min0755-0757=(L- LM Lm)(AS tt)(=)(=)
+Min0758=(L- LM Lm)(TM tt)(=)(=)
+Min0759-0768=(L- LM Lm)(AS tt)(=)(=)
+Min0769-0775=(L- LM Lm)(TM tt)(=)(=)
+Min0776-0797=(L- LM Lm)(AS tt)(=)(=)
+Min0798-0828=(L- LM Lm)(TM tt)(=)(=)
+Min0829-0832=(L- LM Lm)(AS tt)(=)(=)
+Min0833-0834=(L- LM Lm)(TM tt)(=)(=)
+Min0835-0840=(L- LM Lm)(AS tt)(=)(=)
+Min0841=(L- LM Lm)(TM tt)(=)(=)
+Min0842=(L- LM Lm)(AS tt)(=)(=)
+Min0843=(L- LM Lm)(TM tt)(=)(=)
+Min0844=(L- LM Lm)(AS tt)(=)(=)
+Min0845=(L- LM Lm)(TM tt)(=)(=)
+Min0846-0850=(L- LM Lm)(AS tt)(=)(=)
+Min0851-0876=(L- LM Lm)(TM tt)(=)(=)
+Min0877=(L- LM Lm)(AS tt)(=)(=)
+Min0878=(L- LM Lm)(TM tt)(=)(=)
+Min0879-0884=(L- LM Lm)(AS tt)(=)(=)
+Min0885=(L- LM Lm)(TM tt)(=)(=)
+Min0886-0893=(L- LM Lm)(AS tt)(=)(=)
+Min0894=(L- LM Lm)(TM tt)(=)(=)
+Min0895-0896=(L- LM Lm)(AS tt)(=)(=)
+Min0897-0998=(L- LM Lm)(TM tt)(=)(=)
+Min0999-1012=(L- LM Lm)(AS tt)(=)(=)
+Min1013-1016=(L- LM Lm)(TM tt)(=)(=)
+Min1017=(L- LM Lm)(AS tt)(=)(=)
+Min1018-1027=(L- LM Lm)(TM tt)(=)(=)
+Min1028=(L- Lm)(TM tt)(=)(=)
+Min1029-1030=()(TM tt)(=)(=)
+Min1031-1041=()(AS tt)(=)(=)
+Min1042-1069=()(TM tt)(=)(=)
+Min1070=(L- Lm)(TM tt)(=)(=)
+Min1071-1082=(L- LM Lm)(TM tt)(=)(=)
+Min1083-1085=(L- LM Lm)(AS tt)(=)(=)
+Min1086-1124=(L- LM Lm)(TM tt)(=)(=)
+Min1125=(Lm)(PK)(=)(=)
+Min1126-1178=()(PK)(=)(=)
+Min1179=(L- Lm)(PK)(=)(=)
+Min1180-1209=(L- LM Lm)(PK)(=)(=)
+Min1210=(L- Lm)(PK)(=)(=)
+Min1211-1240=()(PK)(=)(=)
+Min1241=(L- Lm)(PK)(=)(=)
+Min1242-1276=(L- LM Lm)(PK)(=)(=)
+Min1277=(Lm)(PK)(=)(=)
+Min1278-1312=()(PK)(=)(=)
+Min1313=(L- Lm)(PK)(=)(=)
+Min1314-1361=(L- LM Lm)(PK)(=)(=)
+Min1362=(L- Lm)(PK)(=)(=)
+Min1363-1367=()(PK)(=)(=)
+Min1368=(Lm)(PK)(=)(=)
+Min1369-1439=()(PK)(=)(=)
+Min1440=(D0)(PK)(=)(=)
+
+[Day 111 Minute Listing Grouped]
+Min0001-0031=()(PK)(=)(=)
+Min0032-0060=()(TM tt)(=)(=)
+Min0061-0385=()(PK)(=)(=)
+Min0386-0422=()(TM tt)(=)(=)
+Min0423-0455=()(AS tt)(=)(=)
+Min0456=()(TM tt)(=)(=)
+Min0457=()(AS tt)(=)(=)
+Min0458-0465=()(TM tt)(=)(=)
+Min0466-0472=()(AS tt)(=)(=)
+Min0473-0482=()(TM tt)(=)(=)
+Min0483=(Lm)(TM tt)(=)(=)
+Min0484-0488=(L- LM Lm)(TM tt)(=)(=)
+Min0489-0491=(L- LM Lm)(AS tt)(=)(=)
+Min0492=(L- LM Lm)(TM tt)(=)(=)
+Min0493-0660=(L- LM Lm)(AS tt)(=)(=)
+Min0661=(L- LM Lm)(TM tt)(=)(=)
+Min0662-0664=(L- LM Lm)(AS tt)(=)(=)
+Min0665-0666=(L- LM Lm)(TM tt)(=)(=)
+Min0667=(L- LM Lm)(AS tt)(=)(=)
+Min0668=(L- LM Lm)(TM tt)(=)(=)
+Min0669-0670=(L- LM Lm)(AS tt)(=)(=)
+Min0671-0673=(L- LM Lm)(TM tt)(=)(=)
+Min0674=(L- LM Lm)(AS tt)(=)(=)
+Min0675-0685=(L- LM Lm)(TM tt)(=)(=)
+Min0686=(L- LM Lm)(AS tt)(=)(=)
+Min0687=(L- LM Lm)(TM tt)(=)(=)
+Min0688=(L- LM Lm)(AS tt)(=)(=)
+Min0689-0690=(L- LM Lm)(TM tt)(=)(=)
+Min0691=(L- LM Lm)(AS tt)(=)(=)
+Min0692=(L- LM Lm)(TM tt)(=)(=)
+Min0693=(L- LM Lm)(AS tt)(=)(=)
+Min0694=(L- LM Lm)(TM tt)(=)(=)
+Min0695-0699=(L- LM Lm)(AS tt)(=)(=)
+Min0700=(L- LM Lm)(TM tt)(=)(=)
+Min0701-1082=(L- LM Lm)(AS tt)(=)(=)
+Min1083-1084=(L- LM Lm)(TM tt)(=)(=)
+Min1085=(L- LM Lm)(AS tt)(=)(=)
+Min1086-1123=(L- LM Lm)(TM tt)(=)(=)
+Min1124-1310=(L- LM Lm)(PK)(=)(=)
+Min1311=(Lm)(PK)(=)(=)
+Min1312-1352=()(PK)(=)(=)
+Min1353-1354=(Lm)(PK)(=)(=)
+Min1355-1368=()(PK)(=)(=)
+Min1369=(Lm)(PK)(=)(=)
+Min1370-1372=()(PK)(=)(=)
+Min1373=(Lm)(PK)(=)(=)
+Min1374=(L- Lm)(PK)(=)(=)
+Min1375-1376=(Lm)(PK)(=)(=)
+Min1377-1439=()(PK)(=)(=)
+Min1440=(D0)(PK)(=)(=)
+
+[Day 112 Minute Listing Grouped]
+Min0001-0031=()(PK)(=)(=)
+Min0032-0060=()(TM tt)(=)(=)
+Min0061-0385=()(PK)(=)(=)
+Min0386-0422=()(TM tt)(=)(=)
+Min0423-0471=()(AS tt)(=)(=)
+Min0472=(L- Lm)(AS tt)(=)(=)
+Min0473-1088=(L- LM Lm)(AS tt)(=)(=)
+Min1089-1122=(L- LM Lm)(TM tt)(=)(=)
+Min1123-1322=(L- LM Lm)(PK)(=)(=)
+Min1323=(Lm)(PK)(=)(=)
+Min1324=(L- Lm)(PK)(=)(=)
+Min1325-1328=(L- LM Lm)(PK)(=)(=)
+Min1329=(L- Lm)(PK)(=)(=)
+Min1330-1331=()(PK)(=)(=)
+Min1332=(L- Lm)(PK)(=)(=)
+Min1333-1334=(L- LM Lm)(PK)(=)(=)
+Min1335-1336=(L- Lm)(PK)(=)(=)
+Min1337=(Lm)(PK)(=)(=)
+Min1338=()(PK)(=)(=)
+Min1339=(Lm)(PK)(=)(=)
+Min1340=(L- Lm)(PK)(=)(=)
+Min1341-1439=()(PK)(=)(=)
+Min1440=(D0)(PK)(=)(=)
+
+[Day 113 Minute Listing Grouped]
+Min0001-0031=()(PK)()(=)
+Min0032-0060=()(TM tt)()(=)
+Min0061-0385=()(PK)()(=)
+Min0386-0424=()(TM tt)()(=)
+Min0425-0471=()(AS tt)()(=)
+Min0472=(L- Lm)(AS tt)()(=)
+Min0473-0560=(L- LM Lm)(AS tt)()(=)
+Min0561=()(AS tt)()(=)
+Min0562-0564=()(AS tt)(CL)(=)
+Min0565-0763=(L- LM Lm)(AS tt)()(=)
+Min0764-0766=(RM L- LM Lm)(AS tt)()(=)
+Min0767=(R- RM L- LM Lm)(AS tt)()(=)
+Min0768-1088=(L- LM Lm)(AS tt)()(=)
+Min1089-1122=(L- LM Lm)(TM tt)()(=)
+Min1123-1433=(L- LM Lm)(PK)()(=)
+Min1434=(Lm)(PK)()(=)
+Min1435-1439=()(PK)()(=)
+Min1440=(D0)(PK)()(=)
+
+[Day 114 Minute Listing Grouped]
+Min0001-0031=()(PK)()(=)
+Min0032-0060=()(TM tt)()(=)
+Min0061-0386=()(PK)()(=)
+Min0387-0424=()(TM tt)()(=)
+Min0425-0430=()(AS tt)()(=)
+Min0431-0440=()(TM tt)()(=)
+Min0441-0445=()(AS tt)()(=)
+Min0446-0447=()(TM tt)()(=)
+Min0448-0461=()(AS tt)()(=)
+Min0462=(Lm)(AS tt)()(=)
+Min0463-0540=(L- LM Lm)(AS tt)()(=)
+Min0541=(L- LM Lm)(X)()(=)
+Min0542-0565=(L- LM Lm)(AS tt)()(=)
+Min0566=()(AS tt)()(=)
+Min0567-0569=()(AS tt)(CL)(=)
+Min0570=()(AS tt)()(=)
+Min0571-0750=(L- LM Lm)(AS tt)()(=)
+Min0751=(L- LM Lm)(TM tt)()(=)
+Min0752-0754=(L- LM Lm)(AS tt)()(=)
+Min0755-0757=(L- LM Lm)(TM tt)()(=)
+Min0758-0759=(L- LM Lm)(AS tt)()(=)
+Min0760-0761=(L- LM Lm)(TM tt)()(=)
+Min0762-0929=(L- LM Lm)(AS tt)()(=)
+Min0930-0933=(L- LM Lm)(TM tt)()(=)
+Min0934=(L- LM Lm)(AS tt)()(=)
+Min0935=(L- LM Lm)(TM tt)()(=)
+Min0936-1083=(L- LM Lm)(AS tt)()(=)
+Min1084=(L- LM Lm)(TM tt)()(=)
+Min1085-1087=(L- LM Lm)(AS tt)()(=)
+Min1088-1120=(L- LM Lm)(TM tt)()(=)
+Min1121-1279=(L- LM Lm)(PK)()(=)
+Min1280=(L- Lm)(PK)()(=)
+Min1281-1309=()(PK)()(=)
+Min1310=(Lm)(PK)()(=)
+Min1311-1312=()(PK)()(=)
+Min1313-1317=(L- Lm)(PK)()(=)
+Min1318-1347=(L- LM Lm)(PK)()(=)
+Min1348-1349=(Lm)(PK)()(=)
+Min1350-1353=()(PK)()(=)
+Min1354=(Lm)(PK)()(=)
+Min1355-1356=(L- LM Lm)(PK)()(=)
+Min1357-1358=(L- Lm)(PK)()(=)
+Min1359=(Lm)(PK)()(=)
+Min1360-1439=()(PK)()(=)
+Min1440=(D0)(PK)()(=)
+
+[Day 115 Minute Listing Grouped]
+Min0001-0031=()(PK)(=)(=)
+Min0032-0060=()(TM tt)(=)(=)
+Min0061-0386=()(PK)(=)(=)
+Min0387-0424=()(TM tt)(=)(=)
+Min0425-0481=()(AS tt)(=)(=)
+Min0482=(L- Lm)(AS tt)(=)(=)
+Min0483-0503=(L- LM Lm)(AS tt)(=)(=)
+Min0504=(L- Lm)(AS tt)(=)(=)
+Min0505-0513=()(AS tt)(=)(=)
+Min0514-0519=()(TM tt)(=)(=)
+Min0520=()(AS tt)(=)(=)
+Min0521=()(TM tt)(=)(=)
+Min0522=()(AS tt)(=)(=)
+Min0523=()(TM tt)(=)(=)
+Min0524-0528=()(AS tt)(=)(=)
+Min0529-0530=()(TM tt)(=)(=)
+Min0531=(L- Lm)(TM tt)(=)(=)
+Min0532-0533=(L- LM Lm)(TM tt)(=)(=)
+Min0534=(L- LM Lm)(AS tt)(=)(=)
+Min0535=(L- LM Lm)(TM tt)(=)(=)
+Min0536-0539=(L- LM Lm)(AS tt)(=)(=)
+Min0540=(L- LM Lm)(TM tt)(=)(=)
+Min0541=(L- LM Lm)(AS tt)(=)(=)
+Min0542=(L- LM Lm)(TM tt)(=)(=)
+Min0543=(L- LM Lm)(AS tt)(=)(=)
+Min0544=(L- LM Lm)(TM tt)(=)(=)
+Min0545=(L- LM Lm)(AS tt)(=)(=)
+Min0546=(L- LM Lm)(TM tt)(=)(=)
+Min0547=(L- LM Lm)(AS tt)(=)(=)
+Min0548-0549=(L- LM Lm)(TM tt)(=)(=)
+Min0550=(L- LM Lm)(AS tt)(=)(=)
+Min0551=(L- LM Lm)(TM tt)(=)(=)
+Min0552-0582=(L- LM Lm)(AS tt)(=)(=)
+Min0583=(L- LM Lm)(TM tt)(=)(=)
+Min0584=(L- LM Lm)(AS tt)(=)(=)
+Min0585-0588=(L- LM Lm)(TM tt)(=)(=)
+Min0589-0603=(L- LM Lm)(AS tt)(=)(=)
+Min0604=(L- LM Lm)(TM tt)(=)(=)
+Min0605-0609=(L- LM Lm)(AS tt)(=)(=)
+Min0610=(L- LM Lm)(TM tt)(=)(=)
+Min0611-0620=(L- LM Lm)(AS tt)(=)(=)
+Min0621-0626=(L- LM Lm)(TM tt)(=)(=)
+Min0627=(L- LM Lm)(AS tt)(=)(=)
+Min0628=(L- LM Lm)(TM tt)(=)(=)
+Min0629=(L- LM Lm)(AS tt)(=)(=)
+Min0630-0632=(L- LM Lm)(TM tt)(=)(=)
+Min0633=(L- LM Lm)(AS tt)(=)(=)
+Min0634=(L- LM Lm)(TM tt)(=)(=)
+Min0635-0637=(L- LM Lm)(AS tt)(=)(=)
+Min0638-0646=(L- LM Lm)(TM tt)(=)(=)
+Min0647=(L- LM Lm)(AS tt)(=)(=)
+Min0648-0649=(L- LM Lm)(TM tt)(=)(=)
+Min0650=(L- LM Lm)(AS tt)(=)(=)
+Min0651-0662=(L- LM Lm)(TM tt)(=)(=)
+Min0663-0665=(L- LM Lm)(AS tt)(=)(=)
+Min0666-0669=(L- LM Lm)(TM tt)(=)(=)
+Min0670=(L- LM Lm)(AS tt)(=)(=)
+Min0671=(L- LM Lm)(TM tt)(=)(=)
+Min0672-0675=(L- LM Lm)(AS tt)(=)(=)
+Min0676=(L- LM Lm)(TM tt)(=)(=)
+Min0677-0750=(L- LM Lm)(AS tt)(=)(=)
+Min0751=(L- LM Lm)(TM tt)(=)(=)
+Min0752=(L- LM Lm)(AS tt)(=)(=)
+Min0753-0755=(L- LM Lm)(TM tt)(=)(=)
+Min0756-0788=(L- LM Lm)(AS tt)(=)(=)
+Min0789-0802=(L- LM Lm)(TM tt)(=)(=)
+Min0803-0886=(L- LM Lm)(AS tt)(=)(=)
+Min0887=(L- LM Lm)(TM tt)(=)(=)
+Min0888=(L- LM Lm)(AS tt)(=)(=)
+Min0889=(L- LM Lm)(TM tt)(=)(=)
+Min0890-0892=(L- LM Lm)(AS tt)(=)(=)
+Min0893=(L- LM Lm)(TM tt)(=)(=)
+Min0894-0902=(L- LM Lm)(AS tt)(=)(=)
+Min0903=(L- LM Lm)(TM tt)(=)(=)
+Min0904=(L- LM Lm)(AS tt)(=)(=)
+Min0905-0943=(L- LM Lm)(TM tt)(=)(=)
+Min0944-0946=(L- LM Lm)(AS tt)(=)(=)
+Min0947=(L- LM Lm)(TM tt)(=)(=)
+Min0948-0951=(L- LM Lm)(AS tt)(=)(=)
+Min0952-0966=(L- LM Lm)(TM tt)(=)(=)
+Min0967=(L- LM Lm)(AS tt)(=)(=)
+Min0968-0971=(L- LM Lm)(TM tt)(=)(=)
+Min0972-0998=(L- LM Lm)(AS tt)(=)(=)
+Min0999=(L- LM Lm)(TM tt)(=)(=)
+Min1000-1005=(L- LM Lm)(AS tt)(=)(=)
+Min1006=(L- LM Lm)(TM tt)(=)(=)
+Min1007-1020=(L- LM Lm)(AS tt)(=)(=)
+Min1021=(L- LM Lm)(TM tt)(=)(=)
+Min1022-1026=(L- LM Lm)(AS tt)(=)(=)
+Min1027-1035=(L- LM Lm)(TM tt)(=)(=)
+Min1036-1041=(L- LM Lm)(AS tt)(=)(=)
+Min1042-1044=(L- LM Lm)(TM tt)(=)(=)
+Min1045-1080=(L- LM Lm)(AS tt)(=)(=)
+Min1081-1120=(L- LM Lm)(TM tt)(=)(=)
+Min1121-1323=(L- LM Lm)(PK)(=)(=)
+Min1324=(L- Lm)(PK)(=)(=)
+Min1325-1337=(L- LM Lm)(PK)(=)(=)
+Min1338=(L- Lm)(PK)(=)(=)
+Min1339-1439=()(PK)(=)(=)
+Min1440=(D0)(PK)(=)(=)
+
+[Day 116 Minute Listing Grouped]
+Min0001-0031=()(PK)()(=)
+Min0032-0060=()(TM tt)()(=)
+Min0061-0387=()(PK)()(=)
+Min0388-0528=()(TM tt)()(=)
+Min0529=(L- Lm)(TM tt)()(=)
+Min0530-0541=(L- LM Lm)(TM tt)()(=)
+Min0542=(L- LM Lm)(AS tt)()(=)
+Min0543=(L- LM Lm)(TM tt)()(=)
+Min0544-0549=(L- LM Lm)(AS tt)()(=)
+Min0550-0551=(L- LM Lm)(TM tt)()(=)
+Min0552=(L- Lm)(TM tt)(CL)(=)
+Min0553-0554=(L- LM Lm)(TM tt)(CL)(=)
+Min0555-0561=(L- LM Lm)(TM tt)()(=)
+Min0562=(L- Lm)(TM tt)()(=)
+Min0563-0588=()(TM tt)()(=)
+Min0589=(L- Lm)(TM tt)()(=)
+Min0590-0660=(L- LM Lm)(TM tt)()(=)
+Min0661-0664=(X)(TM tt)()(=)
+Min0665-0710=(L- LM Lm)(TM tt)()(=)
+Min0711=(D- DM L- LM Lm)(TM tt)()(=)
+Min0712-0721=(D- DM Dm L- LM Lm)(TM tt)()(=)
+Min0722=(D- DM L- LM Lm)(TM tt)()(=)
+Min0723-0901=(L- LM Lm)(TM tt)()(=)
+Min0902=(Lm)(TM tt)()(=)
+Min0903=(L- LM Lm)(TM tt)()(=)
+Min0904=(Lm)(TM tt)()(=)
+Min0905-0906=(L- Lm)(TM tt)()(=)
+Min0907=(Lm)(TM tt)()(=)
+Min0908=(L- Lm)(TM tt)()(=)
+Min0909-0911=(Lm)(TM tt)()(=)
+Min0912-1119=()(TM tt)()(=)
+Min1120-1439=()(PK)()(=)
+Min1440=(D0)(PK)()(=)
+
+[Day 117 Minute Listing Grouped]
+Min0001-0031=()(PK)()(=)
+Min0032-0060=()(TM tt)()(=)
+Min0061-0387=()(PK)()(=)
+Min0388-0427=()(TM tt)()(=)
+Min0428=(L- Lm)(TM tt)()(=)
+Min0429-0444=(L- LM Lm)(TM tt)()(=)
+Min0445-0446=(L- LM Lm)(AS tt)()(=)
+Min0447=(L- LM Lm)(TM tt)()(=)
+Min0448-0450=(L- LM Lm)(AS tt)()(=)
+Min0451-0458=(L- LM Lm)(TM tt)()(=)
+Min0459=(L- LM Lm)(AS tt)()(=)
+Min0460-0467=(L- LM Lm)(TM tt)()(=)
+Min0468-0469=(L- LM Lm)(AS tt)()(=)
+Min0470=(L- LM Lm)(TM tt)()(=)
+Min0471-0475=(L- LM Lm)(AS tt)()(=)
+Min0476-0487=(L- LM Lm)(TM tt)()(=)
+Min0488=(L- LM Lm)(AS tt)()(=)
+Min0489=(L- LM Lm)(TM tt)()(=)
+Min0490-0528=(L- LM Lm)(AS tt)()(=)
+Min0529=(L- LM Lm)(TM tt)()(=)
+Min0530-0553=(L- LM Lm)(AS tt)()(=)
+Min0554=()(AS tt)()(=)
+Min0555-0556=()(AS tt)(CL)(=)
+Min0557=(L- LM Lm)(AS tt)(CL)(=)
+Min0558-0620=(L- LM Lm)(AS tt)()(=)
+Min0621=(L- LM Lm)(TM tt)()(=)
+Min0622=(L- LM Lm)(AS tt)()(=)
+Min0623-0624=(L- LM Lm)(TM tt)()(=)
+Min0625-0929=(L- LM Lm)(AS tt)()(=)
+Min0930=(L- LM Lm)(TM tt)()(=)
+Min0931-0959=(L- LM Lm)(AS tt)()(=)
+Min0960=(L- LM Lm)(TM tt)()(=)
+Min0961=(L- LM Lm)(AS tt)()(=)
+Min0962=(L- LM Lm)(TM tt)()(=)
+Min0963-1001=(L- LM Lm)(AS tt)()(=)
+Min1002=(L- LM Lm)(TM tt)()(=)
+Min1003=(L- LM Lm)(AS tt)()(=)
+Min1004-1009=(L- LM Lm)(TM tt)()(=)
+Min1010=(L- LM Lm)(AS tt)()(=)
+Min1011=(L- LM Lm)(TM tt)()(=)
+Min1012-1041=(L- LM Lm)(AS tt)()(=)
+Min1042=(L- LM Lm)(TM tt)()(=)
+Min1043-1053=(L- LM Lm)(AS tt)()(=)
+Min1054=(L- LM Lm)(TM tt)()(=)
+Min1055-1064=(L- LM Lm)(AS tt)()(=)
+Min1065-1066=(L- LM Lm)(TM tt)()(=)
+Min1067-1068=(L- LM Lm)(AS tt)()(=)
+Min1069-1119=(L- LM Lm)(TM tt)()(=)
+Min1120-1352=(L- LM Lm)(PK)()(=)
+Min1353=(L- Lm)(PK)()(=)
+Min1354=(Lm)(PK)()(=)
+Min1355-1385=()(PK)()(=)
+Min1386=(Lm)(PK)()(=)
+Min1387=(L- Lm)(PK)()(=)
+Min1388-1439=(L- LM Lm)(PK)()(=)
+Min1440=(D0 L- LM Lm)(PK)()(=)
+
+[Day 118 Minute Listing Grouped]
+Min0001-0003=(L- LM Lm)(PK)(=)(=)
+Min0004=(L- Lm)(PK)(=)(=)
+Min0005=(Lm)(PK)(=)(=)
+Min0006=(L- Lm)(PK)(=)(=)
+Min0007-0009=(Lm)(PK)(=)(=)
+Min0010-0012=()(PK)(=)(=)
+Min0013=(Lm)(PK)(=)(=)
+Min0014-0017=(L- Lm)(PK)(=)(=)
+Min0018=(L- LM Lm)(PK)(=)(=)
+Min0019=(L- Lm)(PK)(=)(=)
+Min0020=(Lm)(PK)(=)(=)
+Min0021-0031=()(PK)(=)(=)
+Min0032-0060=()(TM tt)(=)(=)
+Min0061-0387=()(PK)(=)(=)
+Min0388-0424=()(TM tt)(=)(=)
+Min0425-0475=()(AS tt)(=)(=)
+Min0476=(L- Lm)(AS tt)(=)(=)
+Min0477-0637=(L- LM Lm)(AS tt)(=)(=)
+Min0638=(L- LM Lm)(TM tt)(=)(=)
+Min0639-0644=(L- LM Lm)(AS tt)(=)(=)
+Min0645-0646=(L- LM Lm)(TM tt)(=)(=)
+Min0647-0654=(L- LM Lm)(AS tt)(=)(=)
+Min0655=(L- LM Lm)(TM tt)(=)(=)
+Min0656-0670=(L- LM Lm)(AS tt)(=)(=)
+Min0671=(L- LM Lm)(TM tt)(=)(=)
+Min0672-0673=(L- LM Lm)(AS tt)(=)(=)
+Min0674-0683=(L- LM Lm)(TM tt)(=)(=)
+Min0684=(L- LM Lm)(AS tt)(=)(=)
+Min0685=(L- LM Lm)(TM tt)(=)(=)
+Min0686=(L- LM Lm)(AS tt)(=)(=)
+Min0687-0688=(L- LM Lm)(TM tt)(=)(=)
+Min0689=(L- LM Lm)(AS tt)(=)(=)
+Min0690=(L- LM Lm)(TM tt)(=)(=)
+Min0691-0692=(L- LM Lm)(AS tt)(=)(=)
+Min0693-0694=(L- LM Lm)(TM tt)(=)(=)
+Min0695-0707=(L- LM Lm)(AS tt)(=)(=)
+Min0708=(L- LM Lm)(TM tt)(=)(=)
+Min0709-0991=(L- LM Lm)(AS tt)(=)(=)
+Min0992=(L- LM Lm)(TM tt)(=)(=)
+Min0993-0994=(L- LM Lm)(AS tt)(=)(=)
+Min0995=(L- LM Lm)(TM tt)(=)(=)
+Min0996-1079=(L- LM Lm)(AS tt)(=)(=)
+Min1080-1118=(L- LM Lm)(TM tt)(=)(=)
+Min1119-1370=(L- LM Lm)(PK)(=)(=)
+Min1371=(Lm)(PK)(=)(=)
+Min1372-1439=()(PK)(=)(=)
+Min1440=(D0)(PK)(=)(=)
+
+[Day 119 Minute Listing Grouped]
+Min0001-0031=()(PK)(=)(=)
+Min0032-0060=()(TM tt)(=)(=)
+Min0061-0388=()(PK)(=)(=)
+Min0389-0426=()(TM tt)(=)(=)
+Min0427-0467=()(AS tt)(=)(=)
+Min0468=(L- Lm)(AS tt)(=)(=)
+Min0469-1083=(L- LM Lm)(AS tt)(=)(=)
+Min1084-1117=(L- LM Lm)(TM tt)(=)(=)
+Min1118-1435=(L- LM Lm)(PK)(=)(=)
+Min1436-1437=(L- Lm)(PK)(=)(=)
+Min1438-1439=(L- LM Lm)(PK)(=)(=)
+Min1440=(D0 L- LM Lm)(PK)(=)(=)
+
+[Day 120 Minute Listing Grouped]
+Min0001-0031=(L- LM Lm)(PK)()(=)
+Min0032-0036=(L- LM Lm)(TM tt)()(=)
+Min0037=(L- Lm)(TM tt)()(=)
+Min0038-0045=()(TM tt)()(=)
+Min0046=(L- Lm)(TM tt)()(=)
+Min0047-0060=()(TM tt)()(=)
+Min0061-0388=()(PK)()(=)
+Min0389-0426=()(TM tt)()(=)
+Min0427-0472=()(AS tt)()(=)
+Min0473=(L- Lm)(AS tt)()(=)
+Min0474-0529=(L- LM Lm)(AS tt)()(=)
+Min0530-0531=(L- LM Lm)(X)()(=)
+Min0532-0551=(L- LM Lm)(AS tt)()(=)
+Min0552=()(AS tt)()(=)
+Min0553-0554=()(AS tt)(CL)(=)
+Min0555-1043=(L- LM Lm)(AS tt)()(=)
+Min1044-1045=(L- LM Lm)(TM tt)()(=)
+Min1046-1065=(L- LM Lm)(AS tt)()(=)
+Min1066-1116=(L- LM Lm)(TM tt)()(=)
+Min1117-1236=(L- LM Lm)(PK)()(=)
+Min1237=(L- Lm)(PK)()(=)
+Min1238-1245=()(PK)()(=)
+Min1246=(Lm)(PK)()(=)
+Min1247-1291=(L- LM Lm)(PK)()(=)
+Min1292-1293=(Lm)(PK)()(=)
+Min1294-1439=()(PK)()(=)
+Min1440=(D0)(PK)()(=)

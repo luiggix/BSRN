@@ -1,0 +1,1665 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="sensors.xsl"?>
+<stationinfo>
+    <default>
+        <serial_number>
+            default
+        </serial_number>
+        <purchase_date>
+            XXX
+        </purchase_date>
+        <remarks>
+            XXX
+        </remarks>
+        <pyrgeometer_body_compensation>
+            -1
+        </pyrgeometer_body_compensation>
+        <pyrgeometer_dome_compensation>
+            -1
+        </pyrgeometer_dome_compensation>
+        <wavelength_of_band_1>
+            -1
+        </wavelength_of_band_1>
+        <bandwidth_of_band_1>
+            -1
+        </bandwidth_of_band_1>
+        <wavelength_of_band_2>
+            -1
+        </wavelength_of_band_2>
+        <bandwidth_of_band_2>
+            -1
+        </bandwidth_of_band_2>
+        <wavelength_of_band_3>
+            -1
+        </wavelength_of_band_3>
+        <bandwidth_of_band_3>
+            -1
+        </bandwidth_of_band_3>
+        <max_zenith_angle_direct>
+            -1
+        </max_zenith_angle_direct>
+        <min_zenith_angle_direct>
+            -1
+        </min_zenith_angle_direct>
+        <calibration>
+            <number_of_comparisons_band_1>
+                -1
+            </number_of_comparisons_band_1>
+            <standard_error_of_calibration_band_1>
+                -1
+            </standard_error_of_calibration_band_1>
+            <number_of_comparisons_band_2>
+                -1
+            </number_of_comparisons_band_2>
+            <mean_calibration_coefficent_band_2>
+                -1
+            </mean_calibration_coefficent_band_2>
+            <standard_error_of_calibration_band_2>
+                -1
+            </standard_error_of_calibration_band_2>
+            <number_of_comparisons_band_3>
+                -1
+            </number_of_comparisons_band_3>
+            <mean_calibration_coefficent_band_3>
+                -1
+            </mean_calibration_coefficent_band_3>
+            <standard_error_of_calibration_band_3>
+                -1
+            </standard_error_of_calibration_band_3>
+            <remarks1>
+                XXX
+            </remarks1>
+            <remarks2>
+                XXX
+            </remarks2>
+        </calibration>
+    </default>
+
+<sensor>
+        <serial_number>
+            PIR-28987F3
+        </serial_number>
+        <manufacturer>
+            Eppley
+        </manufacturer>
+        <model>
+            PIR
+        </model>
+        <purchase_date>
+            21/10/1998
+        </purchase_date>
+        <wrmc_number>            1004        </wrmc_number>
+        <pyrgeometer_body_compensation>
+            3
+        </pyrgeometer_body_compensation>
+        <pyrgeometer_dome_compensation>
+            5
+        </pyrgeometer_dome_compensation>
+        <calibration>
+            <location>Alice Springs </location>
+            <person>                B Forgan            </person>
+            <date>                25/02/1995            </date>
+            <time>                12:00            </time>
+            <end_date>                25/02/1995            </end_date>
+            <mean_calibration_coefficent_band_1>                4.23            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                B Forgan            </person>
+            <date>                08/08/1995            </date>
+            <time>                12:01            </time>
+            <end_date>                08/08/1995            </end_date>
+            <mean_calibration_coefficent_band_1>                4.23            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                B Forgan            </person>
+            <date>                10/01/1996            </date>
+            <time>                17:56            </time>
+            <end_date>                10/01/1996            </end_date>
+            <mean_calibration_coefficent_band_1>                4.23            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                P Novotny            </person>
+            <date>                15/07/1997            </date>
+            <time>                15:30            </time>
+            <end_date>                15/07/1997            </end_date>
+            <mean_calibration_coefficent_band_1>                4.23            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                P Novotny            </person>
+            <date>                03/02/1998            </date>
+            <time>                09:00            </time>
+            <end_date>                03/02/1998            </end_date>
+            <mean_calibration_coefficent_band_1>                4.23            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+        <location>                Alice Springs            </location>
+            <person>                P Novotny            </person>
+            <date>                12/07/1998            </date>
+            <time>                10:00            </time>
+            <end_date>                12/07/1998            </end_date>
+            <mean_calibration_coefficent_band_1>                4.23            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                B Forgan            </person>
+            <date>                20/04/1999            </date>
+            <time>                09:40            </time>
+            <end_date>                20/04/1999            </end_date>
+            <mean_calibration_coefficent_band_1>                4.23            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                B Forgan            </person>
+            <date>                15/02/2000            </date>
+            <time>                22:00            </time>
+            <end_date>                15/02/2000            </end_date>
+            <mean_calibration_coefficent_band_1>                4.23            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                P Novotny            </person>
+            <date>                04/01/2001            </date>
+            <time>                21:45            </time>
+            <end_date>                04/01/2001            </end_date>
+            <mean_calibration_coefficent_band_1>                4.23            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                M Carr            </person>
+            <date>                30/07/2003            </date>
+            <time>                00:00            </time>
+            <end_date>                30/07/2003            </end_date>
+            <mean_calibration_coefficent_band_1>                4.15            </mean_calibration_coefficent_band_1>
+        </calibration>
+</sensor>
+<sensor>
+        <serial_number>            PIR-29075F3        </serial_number>
+        <manufacturer>            Eppley        </manufacturer>
+        <model>            PIR        </model>
+        <wrmc_number>            1005        </wrmc_number>
+        <pyrgeometer_body_compensation>            3        </pyrgeometer_body_compensation>
+        <pyrgeometer_dome_compensation>            5        </pyrgeometer_dome_compensation>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                M Carr            </person>
+            <date>                15/12/2003            </date>
+            <time>                12:00            </time>
+            <end_date>                15/12/2003            </end_date>
+            <mean_calibration_coefficent_band_1>                4.42            </mean_calibration_coefficent_band_1>
+        </calibration>
+</sensor>
+
+<sensor>
+    <serial_number>            PIR-29076F3        </serial_number>
+	<manufacturer>            Eppley        </manufacturer>
+	<model>            PIR        </model>
+	<wrmc_number>            1006        </wrmc_number>
+	<pyrgeometer_body_compensation>            3        </pyrgeometer_body_compensation>
+	<pyrgeometer_dome_compensation>            5        </pyrgeometer_dome_compensation>
+	<calibration>
+		<location>                Alice Springs            </location>
+		<person>                P Stone            </person>
+		<date>                22/07/2004            </date>
+		<time>                13:00            </time>
+		<end_date>                22/07/2004            </end_date>
+		<mean_calibration_coefficent_band_1>                4.36           </mean_calibration_coefficent_band_1>
+	</calibration>
+	<calibration>
+		<location>                Alice Springs            </location>
+		<person>                D Anderson            </person>
+		<date>                30/03/2005            </date>
+		<time>                14:01            </time>
+		<end_date>                30/03/2005            </end_date>
+		<mean_calibration_coefficent_band_1>                4.36           </mean_calibration_coefficent_band_1>
+	</calibration>
+	<calibration>
+		<location>                Alice Springs            </location>
+		<person>                B Forgan            </person>
+		<date>                24/08/2005            </date>
+		<time>                12:00            </time>
+		<end_date>                24/08/2005            </end_date>
+		<mean_calibration_coefficent_band_1>                4.36           </mean_calibration_coefficent_band_1>
+	</calibration>
+	<calibration>
+		<location>                Alice Springs            </location>
+		<person>                B Forgan            </person>
+		<date>                21/06/2006            </date>
+		<time>                12:00            </time>
+		<end_date>                21/06/2006            </end_date>
+		<mean_calibration_coefficent_band_1>                4.36           </mean_calibration_coefficent_band_1>
+	</calibration>
+	<calibration>
+            <location>                Alice Springs            </location>
+            <person>                V Cucevic            </person>
+            <date>                10/12/2006            </date>
+            <time>                00:00            </time>
+            <end_date>                10/12/2006            </end_date>
+            <mean_calibration_coefficent_band_1>                4.44            </mean_calibration_coefficent_band_1>
+    </calibration>
+	<calibration>
+            <location>                Alice Springs            </location>
+            <person>                B Forgan            </person>
+            <date>                03/10/2007            </date>
+            <time>                00:00            </time>
+            <end_date>                03/10/2007            </end_date>
+            <mean_calibration_coefficent_band_1>                4.44            </mean_calibration_coefficent_band_1>
+        </calibration>
+	<calibration>
+            <location>                Alice Springs            </location>
+            <person>               M Carr            </person>
+            <date>                11/03/2008            </date>
+            <time>                00:00            </time>
+            <end_date>                11/03/2008            </end_date>
+            <mean_calibration_coefficent_band_1>                4.44            </mean_calibration_coefficent_band_1>
+        </calibration>
+	<calibration>
+            <location>            Alice Springs    </location>
+            <person>              P Dyson          </person>
+            <date>                24/02/2009       </date>
+            <time>                00:00            </time>
+            <end_date>            24/02/2009       </end_date>
+            <mean_calibration_coefficent_band_1>                4.44           </mean_calibration_coefficent_band_1>
+        </calibration>
+	<calibration>
+            <location>            Alice Springs    </location>
+            <person>              M Milner         </person>
+            <date>                11/08/2009       </date>
+            <time>                22:00            </time>
+            <end_date>            11/08/2009       </end_date>
+            <mean_calibration_coefficent_band_1>                4.44           </mean_calibration_coefficent_band_1>
+        </calibration>
+	<calibration>
+            <location>            Alice Springs    </location>
+            <person>              P Dyson          </person>
+            <date>                08/02/2010       </date>
+            <time>                22:00            </time>
+            <end_date>            08/02/2010       </end_date>
+            <mean_calibration_coefficent_band_1>                4.44           </mean_calibration_coefficent_band_1>
+        </calibration>
+	<calibration>
+            <location>            Alice Springs    </location>
+            <person>              M Milner         </person>
+            <date>                08/07/2010       </date>
+            <time>                22:00            </time>
+            <end_date>            08/07/2010       </end_date>
+            <mean_calibration_coefficent_band_1>                4.44           </mean_calibration_coefficent_band_1>
+        </calibration>
+	<calibration>
+            <location>            Alice Springs    </location>
+            <person>              M Carr         </person>
+            <date>                29/03/2011       </date>
+            <time>                22:00            </time>
+            <end_date>            29/03/2011       </end_date>
+            <mean_calibration_coefficent_band_1>                4.30           </mean_calibration_coefficent_band_1>
+        </calibration>
+	<calibration>
+            <location>            Alice Springs    </location>
+            <person>              N Hyett         </person>
+            <date>                13/09/2011       </date>
+            <time>                22:00            </time>
+            <end_date>            13/09/2011       </end_date>
+            <mean_calibration_coefficent_band_1>                4.30           </mean_calibration_coefficent_band_1>
+        </calibration>
+	<calibration>
+            <location>            Alice Springs    </location>
+            <person>              N Hyett         </person>
+            <date>                19/03/2012       </date>
+            <time>                22:00            </time>
+            <end_date>            19/03/2012       </end_date>
+            <mean_calibration_coefficent_band_1>                4.30           </mean_calibration_coefficent_band_1>
+        </calibration>
+	<calibration>
+            <location>            Alice Springs    </location>
+            <person>              N Hyett         </person>
+            <date>                29/10/2012       </date>
+            <time>                22:00            </time>
+            <end_date>            29/10/2012       </end_date>
+            <mean_calibration_coefficent_band_1>                4.30           </mean_calibration_coefficent_band_1>
+    </calibration>
+	<calibration>
+            <location>            Alice Springs    </location>
+            <person>              N Hyett         </person>
+            <date>                30/04/2013       </date>
+            <time>                22:00            </time>
+            <end_date>            30/04/2013       </end_date>
+            <mean_calibration_coefficent_band_1>                4.30           </mean_calibration_coefficent_band_1>
+    </calibration>
+    <calibration>
+            <location>            Alice Springs    </location>
+            <person>              L Passamani         </person>
+            <date>                14/11/2013       </date>
+            <time>                22:00            </time>
+            <end_date>            14/11/2013       </end_date>
+            <mean_calibration_coefficent_band_1>                4.30           </mean_calibration_coefficent_band_1>
+    </calibration>
+    <calibration>
+            <location>            Alice Springs    </location>
+            <person>              N Hyett         </person>
+            <date>                12/05/2014       </date>
+            <time>                22:00            </time>
+            <end_date>            12/05/2014       </end_date>
+            <mean_calibration_coefficent_band_1>                4.30           </mean_calibration_coefficent_band_1>
+    </calibration>
+    <calibration>
+            <location>            Alice Springs    </location>
+            <person>              P Freeman         </person>
+            <date>                29/10/2014       </date>
+            <time>                22:00            </time>
+            <end_date>            29/10/2014       </end_date>
+            <mean_calibration_coefficent_band_1>                4.30           </mean_calibration_coefficent_band_1>
+        </calibration>
+</sensor>
+	
+<sensor>
+        <serial_number>           CGR4-100282        </serial_number>
+        <manufacturer>            Kipp &amp; Zonen    </manufacturer>
+        <model>                   CGR4               </model>
+        <wrmc_number>             1011              </wrmc_number>
+        <pyrgeometer_body_compensation>            3        </pyrgeometer_body_compensation>
+        <pyrgeometer_dome_compensation>            5        </pyrgeometer_dome_compensation>
+        <calibration>
+            <location>            Alice Springs        </location>
+            <person>              P Heintze            </person>
+            <date>                26/02/2015           </date>
+            <time>                22:00                </time>
+            <end_date>            26/02/2015           </end_date>
+            <mean_calibration_coefficent_band_1>                8.00           </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs        </location>
+            <person>              P Heintze            </person>
+            <date>                05/08/2015           </date>
+            <time>                22:00                </time>
+            <end_date>            05/08/2015           </end_date>
+            <mean_calibration_coefficent_band_1>                8.00           </mean_calibration_coefficent_band_1>
+</calibration>
+<calibration>
+            <location>            Alice Springs        </location>
+            <person>              M Carr            </person>
+            <date>                13/03/2016           </date>
+            <time>                22:00                </time>
+            <end_date>            13/03/2016           </end_date>
+            <mean_calibration_coefficent_band_1>                8.00           </mean_calibration_coefficent_band_1>
+</calibration>
+<calibration>
+            <location>            Alice Springs        </location>
+            <person>              P Freeman            </person>
+            <date>                09/08/2016           </date>
+            <time>                12:00                </time>
+            <end_date>            11/03/2016           </end_date>
+            <mean_calibration_coefficent_band_1>                8.00           </mean_calibration_coefficent_band_1>
+</calibration>
+</sensor>
+
+<sensor>
+        <serial_number>            CH1-940042        </serial_number>
+        <manufacturer>            Kipp &amp; Zonen        </manufacturer>
+        <model>            CH1        </model>
+        <wrmc_number>            1003        </wrmc_number>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                B Forgan            </person>
+            <date>                25/02/1995            </date>
+            <time>                12:00            </time>
+            <end_date>                25/02/1995            </end_date>
+            <mean_calibration_coefficent_band_1>                11.05            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                B Forgan            </person>
+            <date>                08/08/1995            </date>           
+	    <time>                12:01            </time>
+            <end_date>                08/08/1995            </end_date>            
+            <mean_calibration_coefficent_band_1>                11.05            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                B Forgan            </person>
+            <date>                10/01/1996            </date>
+            <time>                17:56            </time>
+            <end_date>                10/01/1996            </end_date>
+            <mean_calibration_coefficent_band_1>                11.05            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                P Novotny            </person>
+            <date>                15/07/1997            </date>
+            <time>                15:30            </time>
+            <end_date>                15/07/1997            </end_date>
+            <mean_calibration_coefficent_band_1>                11.05            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                P Novotny            </person>
+            <date>                03/02/1998            </date>
+            <time>                09:00            </time>
+            <end_date>                03/02/1998            </end_date>
+            <mean_calibration_coefficent_band_1>                11.05            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                P Novotny            </person>
+            <date>                12/07/1998            </date>
+            <time>                10:00            </time>
+            <end_date>                12/07/1998            </end_date>
+            <mean_calibration_coefficent_band_1>                11.05            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                P Novotny            </person>
+            <date>                20/04/1999            </date>
+            <time>                09:40            </time>
+            <end_date>                20/04/1999            </end_date>
+            <mean_calibration_coefficent_band_1>                11.05            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                B Forgan            </person>
+            <date>                11/05/2000            </date>
+            <time>                14:45            </time>
+            <end_date>                11/05/2000            </end_date>
+            <mean_calibration_coefficent_band_1>                11.05            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                B Forgan
+            </person>
+            <date>
+                09/01/2001
+            </date>
+            <time>
+                12:30
+            </time>
+            <end_date>
+                09/01/2001
+            </end_date>
+            <mean_calibration_coefficent_band_1>                11.05            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                B Forgan
+            </person>
+            <date>
+                12/04/2002
+            </date>
+            <time>
+                00:00
+            </time>
+            <end_date>
+                12/04/2002
+            </end_date>
+            <mean_calibration_coefficent_band_1>                10.93            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                B Forgan
+            </person>
+            <date>
+                07/05/2003
+            </date>
+            <time>
+                18:00
+            </time>
+            <end_date>
+                07/05/2003
+            </end_date>
+            <mean_calibration_coefficent_band_1>                10.99            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                M Carr
+            </person>
+            <date>
+                31/07/2003
+            </date>
+            <time>
+                13:30
+            </time>
+            <end_date>
+                31/07/2003
+            </end_date>
+            <mean_calibration_coefficent_band_1>                10.99            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                M Carr
+            </person>
+            <date>
+                15/12/2003
+            </date>
+            <time>
+                17:30
+            </time>
+            <end_date>
+                15/12/2003
+            </end_date>
+            <mean_calibration_coefficent_band_1>                10.99            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                D Anderson
+            </person>
+            <date>
+                08/06/2004
+            </date>
+            <time>
+                00:00
+            </time>
+            <end_date>
+                08/06/2004
+            </end_date>
+            <mean_calibration_coefficent_band_1>                10.99            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                D Anderson
+            </person>
+            <date>
+                30/03/2005
+            </date>
+            <time>
+                14:01
+            </time>
+            <end_date>
+                30/03/2005
+            </end_date>
+            <mean_calibration_coefficent_band_1>                10.99            </mean_calibration_coefficent_band_1>
+        </calibration>
+    </sensor>
+<sensor>
+        <serial_number>            CH1-940059        </serial_number>
+        <manufacturer>            Kipp &amp; Zonen        </manufacturer>
+        <model>            CH1        </model>
+        <wrmc_number>            1007        </wrmc_number>
+<calibration>
+            <location>                Alice Springs            </location>
+            <person>                P Shinkfield            </person>
+            <date>                21/06/2006            </date>
+            <time>                12:00            </time>
+            <end_date>                21/06/2006            </end_date>
+            <mean_calibration_coefficent_band_1>                8.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>                Alice Springs            </location>
+            <person>                V Cucevic            </person>
+            <date>                10/12/2006            </date>
+            <time>                00:00            </time>
+            <end_date>                10/12/2006            </end_date>
+            <mean_calibration_coefficent_band_1>                8.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>                Alice Springs            </location>
+            <person>                B Forgan            </person>
+            <date>                03/10/2007            </date>
+            <time>                00:00            </time>
+            <end_date>                03/10/2007            </end_date>
+            <mean_calibration_coefficent_band_1>                8.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>                Alice Springs            </location>
+            <person>                M Carr            </person>
+            <date>                11/03/2008            </date>
+            <time>                00:00            </time>
+            <end_date>                11/03/2008            </end_date>
+            <mean_calibration_coefficent_band_1>                8.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>                Alice Springs            </location>
+            <person>                P Dyson            </person>
+            <date>                24/02/2009            </date>
+            <time>                00:00            </time>
+            <end_date>                24/02/2009            </end_date>
+            <mean_calibration_coefficent_band_1>                8.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>	Alice Springs 	</location>
+            <person> 	M Milner        </person>
+            <date>	11/08/2009      </date>
+            <time>	11:36           </time>
+            <end_date>	11/08/2009      </end_date>
+            <mean_calibration_coefficent_band_1>                8.88            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+	    <location> Alice Springs </location>
+            <person> P Dyson            </person>
+            <date>08/02/2010            </date>
+            <time>13:40            </time>
+            <end_date>08/02/2010            </end_date>
+            <mean_calibration_coefficent_band_1>                8.83            </mean_calibration_coefficent_band_1>
+	</calibration>
+<calibration>
+	    <location> Alice Springs </location>
+            <person> M Milner            </person>
+            <date>08/07/2010            </date>
+            <time>15:36            </time>
+            <end_date>08/07/2010            </end_date>
+            <mean_calibration_coefficent_band_1>                8.83            </mean_calibration_coefficent_band_1>
+	</calibration>
+
+    </sensor>
+
+<sensor>
+<serial_number>            CHP1-100372        </serial_number>
+        <manufacturer>     Kipp &amp; Zonen        </manufacturer>
+        <model>            CHP1        </model>
+        <wrmc_number>      1010              </wrmc_number>
+<calibration>
+	    <location>	Alice Springs </location>
+            <person>	M Carr        </person>
+            <date>	29/03/2011    </date>
+            <time>	15:27         </time>
+            <end_date>	29/03/2011    </end_date>
+            <mean_calibration_coefficent_band_1>                8.05            </mean_calibration_coefficent_band_1>
+	</calibration>
+<calibration>
+	    <location>	Alice Springs </location>
+            <person>	N Hyett        </person>
+            <date>	13/09/2011    </date>
+            <time>	15:27         </time>
+            <end_date>	13/09/2011    </end_date>
+            <mean_calibration_coefficent_band_1>                8.05            </mean_calibration_coefficent_band_1>
+	</calibration>
+<calibration>
+	    <location>	Alice Springs </location>
+            <person>	N Hyett        </person>
+            <date>	21/03/2012    </date>
+            <time>	11:00         </time>
+            <end_date>	21/03/2012    </end_date>
+            <mean_calibration_coefficent_band_1>                8.05            </mean_calibration_coefficent_band_1>
+	</calibration>
+<calibration>
+	    <location>	Alice Springs </location>
+            <person>	N Hyett        </person>
+            <date>	30/10/2012    </date>
+            <time>	11:00         </time>
+            <end_date>	30/10/2012    </end_date>
+            <mean_calibration_coefficent_band_1>                8.05            </mean_calibration_coefficent_band_1>
+	</calibration>
+<calibration>
+	    <location>	Alice Springs </location>
+            <person>	N Hyett        </person>
+            <date>	30/04/2013    </date>
+            <time>	11:00         </time>
+            <end_date>	30/04/2013    </end_date>
+            <mean_calibration_coefficent_band_1>                8.05            </mean_calibration_coefficent_band_1>
+	</calibration>
+<calibration>
+	    <location>	Alice Springs </location>
+            <person>	L Passamani        </person>
+            <date>	12/11/2013    </date>
+            <time>	11:00         </time>
+            <end_date>	12/11/2013    </end_date>
+            <mean_calibration_coefficent_band_1>                8.05            </mean_calibration_coefficent_band_1>
+	</calibration>
+<calibration>
+	    <location>	Alice Springs </location>
+            <person>	N Hyett        </person>
+            <date>	12/05/2014    </date>
+            <time>	11:00         </time>
+            <end_date>	12/05/2014    </end_date>
+            <mean_calibration_coefficent_band_1>                8.05            </mean_calibration_coefficent_band_1>
+	</calibration>
+<calibration>
+	    <location>	Alice Springs </location>
+            <person>	P Freeman        </person>
+            <date>	29/10/2014    </date>
+            <time>	11:00         </time>
+            <end_date>	29/10/2014    </end_date>
+            <mean_calibration_coefficent_band_1>                8.05            </mean_calibration_coefficent_band_1>
+	</calibration>
+<calibration>
+	    <location>	Alice Springs </location>
+            <person>	P Heintze        </person>
+            <date>	26/02/2015    </date>
+            <time>	11:00         </time>
+            <end_date>	26/02/2015    </end_date>
+            <mean_calibration_coefficent_band_1>                8.05            </mean_calibration_coefficent_band_1>
+	</calibration>
+<calibration>
+	    <location>	Alice Springs </location>
+            <person>	P Heintze        </person>
+            <date>	06/08/2015    </date>
+            <time>	11:00         </time>
+            <end_date>	06/08/2015    </end_date>
+            <mean_calibration_coefficent_band_1>                8.05            </mean_calibration_coefficent_band_1>
+</calibration>
+<calibration>
+	    <location>	Alice Springs </location>
+            <person>	M Carr        </person>
+            <date>	13/03/2016    </date>
+            <time>	12:00         </time>
+            <end_date>	13/03/2016    </end_date>
+            <mean_calibration_coefficent_band_1>                8.05            </mean_calibration_coefficent_band_1>
+</calibration>
+</sensor>
+
+
+<sensor>
+        <serial_number>            CM11-924021        </serial_number>
+        <manufacturer>            Kipp &amp; Zonen        </manufacturer>
+        <model>            CM11        </model>
+        <wrmc_number>            1002        </wrmc_number>
+        <calibration>
+            <location>                Alice Springs            </location>
+            <person>                P Novotny            </person>
+            <date>                29/06/1993            </date>
+            <time>                23:59            </time>
+            <end_date>                29/06/1993            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                B Forgan
+            </person>
+            <date>
+                25/02/1995
+            </date>
+            <time>
+                12:00
+            </time>
+            <end_date>
+                25/02/1995
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                B Forgan
+            </person>
+            <date>
+                08/08/1995
+            </date>
+            <time>
+                12:01
+            </time>
+            <end_date>
+                08/08/1995
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                P Novotny
+            </person>
+            <date>
+                10/01/1996
+            </date>
+            <time>
+                17:56
+            </time>
+            <end_date>
+                10/01/1996
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                P Novotny
+            </person>
+            <date>
+                15/07/1997
+            </date>
+            <time>
+                15:30
+            </time>
+            <end_date>
+                15/07/1997
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                P Novotny
+            </person>
+            <date>
+                03/02/1998
+            </date>
+            <time>
+                09:00
+            </time>
+            <end_date>
+                03/02/1998
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                P Novotny
+            </person>
+            <date>
+                12/07/1998
+            </date>
+            <time>
+                10:00
+            </time>
+            <end_date>
+                12/07/1998
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                P Novotny
+            </person>
+            <date>
+                20/04/1999
+            </date>
+            <time>
+                09:40
+            </time>
+            <end_date>
+                20/04/1999
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                B Forgan
+            </person>
+            <date>
+                15/02/2000
+            </date>
+            <time>
+                17:15
+            </time>
+            <end_date>
+                15/02/2000
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                B Forgan
+            </person>
+            <date>
+                04/01/2001
+            </date>
+            <time>
+                21:45
+            </time>
+            <end_date>
+                04/01/2001
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                B Forgan
+            </person>
+            <date>
+                09/04/2002
+            </date>
+            <time>
+                18:00
+            </time>
+            <end_date>
+                09/04/2002
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                B Forgan
+            </person>
+            <date>
+                07/05/2003
+            </date>
+            <time>
+                18:00
+            </time>
+            <end_date>
+                07/05/2003
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                M Carr
+            </person>
+            <date>
+                31/07/2003
+            </date>
+            <time>
+                13:30
+            </time>
+            <end_date>
+                31/07/2003
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                M Carr
+            </person>
+            <date>
+                15/12/2003
+            </date>
+            <time>
+                17:30
+            </time>
+            <end_date>
+                15/12/2003
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                D Anderson
+            </person>
+            <date>
+                30/03/2005
+            </date>
+            <time>
+                14:01
+            </time>
+            <end_date>
+                30/03/2005
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                D Anderson
+            </person>
+            <date>
+                21/06/2006
+            </date>
+            <time>
+                12:00
+            </time>
+            <end_date>
+                21/06/2006
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                V Cucevic
+            </person>
+            <date>
+                10/12/2006
+            </date>
+            <time>
+                00:00
+            </time>
+            <end_date>
+                10/12/2006
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                B Forgan
+            </person>
+            <date>
+                03/10/2007
+            </date>
+            <time>
+                00:00
+            </time>
+            <end_date>
+                03/10/2007
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+    </sensor>
+    
+    
+<sensor>
+        <serial_number>
+            CM11-924048
+        </serial_number>
+        <manufacturer>
+            Kipp &amp; Zonen
+        </manufacturer>
+        <model>
+            CM11
+        </model>
+        <wrmc_number>
+            1001
+        </wrmc_number>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                P Novotny
+            </person>
+            <date>
+                29/06/1993
+            </date>
+            <time>
+                23:59
+            </time>
+            <end_date>
+                29/06/1993
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                P Novotny
+            </person>
+            <date>
+                25/02/1995
+            </date>
+            <time>
+                12:00
+            </time>
+            <end_date>
+                25/02/1995
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                B Forgan
+            </person>
+            <date>
+                08/08/1995
+            </date>
+            <time>
+                12:01
+            </time>
+            <end_date>
+                08/08/1995
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                P Novotny
+            </person>
+            <date>
+                10/01/1996
+            </date>
+            <time>
+                17:56
+            </time>
+            <end_date>
+                10/01/1996
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                P Novotny
+            </person>
+            <date>
+                15/07/1997
+            </date>
+            <time>
+                15:30
+            </time>
+            <end_date>
+                15/07/1997
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                P Novotny
+            </person>
+            <date>
+                03/02/1998
+            </date>
+            <time>
+                09:00
+            </time>
+            <end_date>
+                03/02/1998
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                P Novotny
+            </person>
+            <date>
+                12/07/1998
+            </date>
+            <time>
+                10:00
+            </time>
+            <end_date>
+                12/07/1998
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                P Novotny
+            </person>
+            <date>
+                20/04/1999
+            </date>
+            <time>
+                09:40
+            </time>
+            <end_date>
+                20/04/1999
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                B Forgan
+            </person>
+            <date>
+                15/02/2000
+            </date>
+            <time>
+                17:15
+            </time>
+            <end_date>
+                15/02/2000
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                B Forgan
+            </person>
+            <date>
+                04/01/2001
+            </date>
+            <time>
+                21:45
+            </time>
+            <end_date>
+                04/01/2001
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                B Forgan
+            </person>
+            <date>
+                09/04/2002
+            </date>
+            <time>
+                18:00
+            </time>
+            <end_date>
+                09/04/2002
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                B Forgan
+            </person>
+            <date>
+                07/05/2003
+            </date>
+            <time>
+                18:00
+            </time>
+            <end_date>
+                07/05/2003
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                M Carr
+            </person>
+            <date>
+                31/07/2003
+            </date>
+            <time>
+                13:30
+            </time>
+            <end_date>
+                31/07/2003
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                M Carr
+            </person>
+            <date>
+                15/12/2003
+            </date>
+            <time>
+                17:30
+            </time>
+            <end_date>
+                15/12/2003
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                D Anderson
+            </person>
+            <date>
+                30/03/2005
+            </date>
+            <time>
+                14:01
+            </time>
+            <end_date>
+                30/03/2005
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+        <calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                P Shinkfield
+            </person>
+            <date>
+                21/06/2006
+            </date>
+            <time>
+                12:00
+            </time>
+            <end_date>
+                21/06/2006
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                V Cucevic
+            </person>
+            <date>
+                10/12/2006
+            </date>
+            <time>
+                00:00
+            </time>
+            <end_date>
+                10/12/2006
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>
+                Alice Springs
+            </location>
+            <person>
+                B Forgan
+            </person>
+            <date>
+                03/10/2007
+            </date>
+            <time>
+                00:00
+            </time>
+            <end_date>
+                03/10/2007
+            </end_date>
+            <mean_calibration_coefficent_band_1>                4.80            </mean_calibration_coefficent_band_1>
+        </calibration>
+    </sensor>
+<sensor>
+        <serial_number>            CM11-048542        </serial_number>
+        <manufacturer>            Kipp &amp; Zonen        </manufacturer>
+        <model>            CM11        </model>
+        <wrmc_number>            1008        </wrmc_number>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              M Carr           </person>
+            <date>                11/03/2008       </date>
+            <time>                00:00            </time>
+            <end_date>            11/03/2008       </end_date>
+            <mean_calibration_coefficent_band_1>                4.89            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              P Dyson          </person>
+            <date>                24/02/2009       </date>
+            <time>                00:00            </time>
+            <end_date>            24/02/2009       </end_date>
+            <mean_calibration_coefficent_band_1>                4.89            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              M Milner         </person>
+            <date>                11/08/2009       </date>
+            <time>                11:35            </time>
+            <end_date>            11/08/2009       </end_date>
+            <mean_calibration_coefficent_band_1>                4.89            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              P Dyson          </person>
+            <date>                09/02/2010       </date>
+            <time>                11:35            </time>
+            <end_date>            09/02/2010       </end_date>
+            <mean_calibration_coefficent_band_1>                4.88            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              N Hyett          </person>
+            <date>                17/08/2010       </date>
+            <time>                11:35            </time>
+            <end_date>            17/08/2010       </end_date>
+            <mean_calibration_coefficent_band_1>                4.85            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              M Carr           </person>
+            <date>                28/03/2011       </date>
+            <time>                11:35            </time>
+            <end_date>                28/03/2011   </end_date>
+            <mean_calibration_coefficent_band_1>                4.85            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              N Hyett          </person>
+            <date>                13/09/2011       </date>
+            <time>                11:35            </time>
+            <end_date>            13/09/2011       </end_date>
+            <mean_calibration_coefficent_band_1>                4.85            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              N Hyett          </person>
+            <date>                20/03/2012       </date>
+            <time>                12:00            </time>
+            <end_date>            20/03/2012       </end_date>
+            <mean_calibration_coefficent_band_1>                4.85            </mean_calibration_coefficent_band_1>
+</calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              N Hyett          </person>
+            <date>                30/04/2013       </date>
+            <time>                12:00            </time>
+            <end_date>            30/04/2013       </end_date>
+            <mean_calibration_coefficent_band_1>                4.85            </mean_calibration_coefficent_band_1>
+</calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              N Hyett          </person>
+            <date>                12/05/2014       </date>
+            <time>                12:00            </time>
+            <end_date>            12/05/2014       </end_date>
+            <mean_calibration_coefficent_band_1>                4.85            </mean_calibration_coefficent_band_1>
+</calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              P Heintze        </person>
+            <date>                26/02/2015       </date>
+            <time>                12:00            </time>
+            <end_date>            26/02/2015       </end_date>
+            <mean_calibration_coefficent_band_1>4.85</mean_calibration_coefficent_band_1>
+</calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              M Carr        </person>
+            <date>                13/03/2016       </date>
+            <time>                12:00            </time>
+            <end_date>            13/03/2016       </end_date>
+            <mean_calibration_coefficent_band_1>4.85</mean_calibration_coefficent_band_1>
+</calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              P Freeman        </person>
+            <date>                09/08/2016       </date>
+            <time>                12:00            </time>
+            <end_date>            11/08/2016       </end_date>
+            <mean_calibration_coefficent_band_1>4.85</mean_calibration_coefficent_band_1>
+</calibration>
+</sensor>
+<sensor>
+        <serial_number>            CM11-058753        </serial_number>
+        <manufacturer>            Kipp &amp; Zonen        </manufacturer>
+        <model>            CM11        </model>
+        <wrmc_number>            1009        </wrmc_number>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              M Carr           </person>
+            <date>                11/03/2008       </date>
+            <time>                00:00            </time>
+            <end_date>            11/03/2008       </end_date>
+            <mean_calibration_coefficent_band_1>                5.28            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              P Dyson          </person>
+            <date>                24/02/2009       </date>
+            <time>                00:00            </time>
+            <end_date>            24/02/2009       </end_date>
+            <mean_calibration_coefficent_band_1>                5.28            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              M Milner         </person>
+            <date>                11/08/2009       </date>
+            <time>                11:35            </time>
+            <end_date>            11/08/2009       </end_date>
+            <mean_calibration_coefficent_band_1>                5.28            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              P Dyson          </person>
+            <date>                09/02/2010       </date>
+            <time>                11:35            </time>
+            <end_date>            09/02/2010       </end_date>
+            <mean_calibration_coefficent_band_1>                5.22            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              N Hyett          </person>
+            <date>                17/08/2010       </date>
+            <time>                11:35            </time>
+            <end_date>            17/08/2010       </end_date>
+            <mean_calibration_coefficent_band_1>                5.30            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              M Carr           </person>
+            <date>                28/03/2011       </date>
+            <time>                11:35            </time>
+            <end_date>            28/03/2011       </end_date>
+            <mean_calibration_coefficent_band_1>                5.20            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              N Hyett          </person>
+            <date>                13/09/2011       </date>
+            <time>                11:35            </time>
+            <end_date>            13/09/2011       </end_date>
+            <mean_calibration_coefficent_band_1>                5.20            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              N Hyett          </person>
+            <date>                20/03/2012       </date>
+            <time>                12:00            </time>
+            <end_date>            20/03/2012       </end_date>
+            <mean_calibration_coefficent_band_1>                5.20            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              N Hyett          </person>
+            <date>                30/04/2013       </date>
+            <time>                12:00            </time>
+            <end_date>            30/04/2013       </end_date>
+            <mean_calibration_coefficent_band_1>                5.20            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              N Hyett          </person>
+            <date>                12/05/2014       </date>
+            <time>                12:00            </time>
+            <end_date>            12/05/2014       </end_date>
+            <mean_calibration_coefficent_band_1>                5.20            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              P Heintze        </person>
+            <date>                26/02/2015       </date>
+            <time>                12:00            </time>
+            <end_date>            26/02/2015       </end_date>
+            <mean_calibration_coefficent_band_1>                5.20            </mean_calibration_coefficent_band_1>
+</calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              M Carr        </person>
+            <date>                13/03/2016       </date>
+            <time>                12:00            </time>
+            <end_date>            13/03/2016       </end_date>
+            <mean_calibration_coefficent_band_1>                5.20            </mean_calibration_coefficent_band_1>
+        </calibration>
+<calibration>
+            <location>            Alice Springs    </location>
+            <person>              P Freeman        </person>
+            <date>                09/08/2016       </date>
+            <time>                12:00            </time>
+            <end_date>            11/08/2016       </end_date>
+            <mean_calibration_coefficent_band_1>                5.20            </mean_calibration_coefficent_band_1>
+        </calibration>
+</sensor>
+<sensor>
+<serial_number>            CHP1-140160        </serial_number>
+        <manufacturer>     Kipp &amp; Zonen        </manufacturer>
+        <model>			CHP1        </model>
+        <wrmc_number>		1012		</wrmc_number>
+<calibration>
+	    <location>	Alice Springs </location>
+            <person>	P Freeman        </person>
+            <date>	11/08/2016    </date>
+            <time>	09:01         </time>
+            <end_date>	11/08/2016    </end_date>
+            <mean_calibration_coefficent_band_1>                7.99            </mean_calibration_coefficent_band_1>
+	</calibration>
+<calibration>
+	    <location>	Alice Springs </location>
+            <person>	P Freeman        </person>
+            <date>	08/08/2017    </date>
+            <time>	12:00         </time>
+            <end_date>	08/08/2017   </end_date>
+            <mean_calibration_coefficent_band_1>                7.99            </mean_calibration_coefficent_band_1>
+	</calibration>
+</sensor>
+    
+</stationinfo>

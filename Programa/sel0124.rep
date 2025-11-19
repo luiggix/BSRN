@@ -1,0 +1,31 @@
+
+**********
+File name: sel0124.dat
+**********
+*Check for line length.......... OK
+*Check for illegal characters... OK
+*ERROR: Incorrect format.
+
+        For each logical record the line number from the beginning of
+        the file and the message only for the first line with wrong
+        format is printed below.
+
+     Log. record:      1
+     Line number:      2
+        +Wrong format of the line...
+         In the following lines the expected format and the current
+         format of the line are printed.
+
+         '#' stands for a digit (leading zeros are not allowed)
+         'X' stands for a character
+         '|' stands for the line end if it is present within first 80 characters
+             (additional characters or spaces are not allowed)
+--------------------------------------------------------------------------------
+ ## ## #### ##|
+ 83 01 2024  2|
+--------------------------------------------------------------------------------
+
+*ERROR: Incorrect record number.
+
+     Log. record:   4000
+     Line number: 221559

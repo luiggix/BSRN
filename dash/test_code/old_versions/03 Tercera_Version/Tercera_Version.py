@@ -1,0 +1,109 @@
+from dash import dcc, html
+from dash.dependencies import Input, Output, State
+
+from functions.grafics import *
+from functions.columns import *
+from functions.table import *
+from functions.callbacks import *
+
+################################################
+#  Creacion de objetos Iniciales para mostrar  #
+################################################
+
+# Grafica a Mostrar
+dropdown_categorias = dcc.Dropdown(names_categories,
+                    'Parametros Basicos',
+                    id="possible_categories",
+                    style={'width': '400px'},
+                    multi=False,
+                    searchable=True
+                    )
+
+# Rango de Fechas
+rang_date = dcc.DatePickerRange(id='my_date_picker_range',
+                                min_date_allowed=df['TIMESTAMP'][0],
+                                max_date_allowed=df['TIMESTAMP'].iloc[-1],
+                                initial_visible_month=df['TIMESTAMP'][0],
+                                start_date=df['TIMESTAMP'][0],
+                                end_date=df['TIMESTAMP'][1440]) 
+
+#Rango de Tiempo
+
+rang_time = dcc.RangeSlider(
+        id='time_range_slider',
+        min=0,
+        max=1440,
+        value=[0,1440],
+        marks={i*60: "{}:00".format(i) for i in range(25)}
+    )
+
+dropdown_graph_values = dcc.Dropdown(id='graph_values')
+
+##################################################
+#               Pantalla principal               #
+##################################################
+
+app.layout = html.Div([
+    html.H1("BSRN IGEF"),
+
+    html.Hr(),
+
+    html.Div([
+        html.H3("Seleccione la categoria"),
+        dropdown_categorias],
+        style={'display': 'flex', 'flex-direction': 'column',"height":'100px',"text-align": "center","align-items": "center"}
+        ),
+
+    html.Hr(),
+    html.H3("Seleccione las graficas a mostrar"),
+    html.Div(
+        dropdown_graph_values,
+        id = "possible_plots",
+        style= {'display': 'flex', 'flex-direction': 'column',"height":'100px',"text-align": "center","align-items": "center"}),
+
+    html.Hr(),
+
+    html.Div(
+        [
+            html.H3("Seleccione el perido de fechas deseado"),
+            rang_date
+        ],
+        style={'display': 'flex', 'flex-direction': 'column',"height":'100px',"text-align": "center","align-items": "center"}),
+    
+
+    html.Hr(),
+    
+    html.H3("Seleccione el perido de tiempo deseado (Al seleccionar mas de un dia en la opción anterior, esta se desactiva)"),
+    rang_time,
+
+    html.Br(),
+
+    html.Hr(),
+
+    dcc.Graph(id='indicator_graphic'),
+
+    html.Hr(),
+
+    html.H3("Datos totales"),
+    html.Div(id='table_container'),
+
+    html.Div(id="a"),
+
+],style={"text-align": "center","align-items": "center"})
+
+
+#####################################################################
+#                             Llamadas                              #
+#####################################################################
+
+@app.callback(
+    Output('a', 'children'),
+    Input('indicator_graphic', 'clickData'),
+    State('indicator_graphic',"figure"))
+def actualizar_grafica(clickData,figure):
+    if clickData!= None:
+        print(figure["data"][-1]["selectedpoints"])
+
+    
+if __name__ == '__main__':
+    app.run_server(debug=True)

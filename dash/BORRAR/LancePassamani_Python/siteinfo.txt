@@ -1,0 +1,300 @@
+********** Site definition file SURFACESITEINFO.TXT ******************
+This was constructed from siteinfo.txt
+
+All below is comments until the line starting {Data Start}.
+All characters below that have to conform to a precise format,
+with 2 lines per station information.  The first instance of
+a specific station number will be used by routines to determine
+the station parameters.
+You may add more comments, but keep them above {Data Start} line
+and put at least one character at the start of the line.
+*
+* 6 Sep 99: added Lauder (NIWA) - data collectio comence Aug 99
+* Added SECVI stations nos. 901-914 15 Sept 1994
+* 4June96 Added Christmas Is. and Mildura. RAD
+* 10Sep96 added Broome 921, Learmonth 922, Geraldton 923
+* 5Sep01 added New Darwin 803 (Phil noted an issue with having Darwin and New Darwin
+* he deleted Darwin in a new siteinfo.txt which did the trick, but it is still here?)
+* 7Mar03 added New Adelaide 502
+* 15Sep04 added Cocos Island 925
+* 31Jan11 added Woomera 552
+* 10Jul2012 added Longreach 403
+* 2017-10-12 added Wollongong 251
+***************************************************************
+The format of the two lines per station are as follows
+Line 1
+Column No   Description
+1           RAD Unit site number
+2           RAD UNIT site number
+3           RAD Unit Site number
+4           Blank (or Bureau no if 8 digits)
+5           Blank (or Bureau no if 7 or 8 digits)
+6           Bureau catalogue no.
+7           Bureau catalogue no.
+8           Bureau catalogue no.
+9           Bureau catalogue no.
+10          Bureau catalogue no.
+11          Bureau catalogue no.
+12          blank (or WMO no if 8 digits)    
+13          blank (or WMO no if 7 or 8 digits)
+14          blank (or WMO no if 6, 7 or 8 dogits)
+15          WMO catalogue no.
+16          WMO catalogue no.
+17          WMO catalogue no.
+18          WMO catalogue no.
+19          WMO catalogue no.
+20          blank
+21 -40      Station name up to 20 characters
+41-42       Bureau NCC station number
+**
+Line 2
+Column No   Description
+1           Station latitude degrees South
+2           Station latitude degrees South
+3           Station latitude degrees South
+4           Station latitude degrees South
+5           Station latitude degrees South
+6           Station latitude degrees South
+7           Station latitude minutes South
+8           Station latitude minutes South
+9           Station latitude minutes South
+10          Station latitude minutes South
+11          Station latitude minutes South
+12          Station latitude minutes South
+13          Station logitude degrees East
+14          Station logitude degrees East
+15          Station logitude degrees East
+16          Station logitude degrees East
+17          Station logitude degrees East
+18          Station logitude degrees East
+19          Station logitude minutes East
+20          Station logitude minutes East
+21          Station logitude minutes East
+22          Station logitude minutes East
+23          Station logitude minutes East
+24          Station logitude minutes East
+25          Station standard longitude of time zone degrees East
+26          Station standard longitude of time zone degrees East
+27          Station standard longitude of time zone degrees East
+28          Station standard longitude of time zone degrees East
+29          Station standard longitude of time zone degrees East
+30          Station standard longitude of time zone degrees East
+31          Time in hours added to local standard time to give UT (GMT)
+32          Time in hours added to local standard time to give UT (GMT)
+33          Time in hours added to local standard time to give UT (GMT)
+34          Time in hours added to local standard time to give UT (GMT)
+35          Time in hours added to local standard time to give UT (GMT)
+36          Time in hours added to local standard time to give UT (GMT)
+37          Station elevation in metres
+38          Station elevation in metres
+39          Station elevation in metres
+40          Station elevation in metres
+41          Station elevation in metres
+42          Station elevation in metres
+
+**************
+An example for Rockhampton
+401  039083   94374 Rockhampton         19
+  23.  22.62 150.  28.59 150.0 -10.0   15.
+**************
+All these data can be found in the EC52 data sheets for the stations
+**************Real data about to commence *************************
+{Data Start}
+201  072150   94910 Wagga Wagga         21
+  35.   9.59 147.  27.37 150.0 -10.0  213.
+203  048027   94711 Cobar               22
+  31.  29.04 145.  49.76 150.0 -10.0  260.
+251  999999   88888 Uni of Wollongong   00 
+  34.  40.64 150. 87.89 150.0 -10.0     30
+301  086282   94866 Melbourne Airport   00 
+  37.  40.50 144. 50.53 150.0 -10.0 132.
+351  076031   94693 Mildura             13
+  34.  14.23 142.   5.13 150.0 -10.0   52.
+401  039083   94374 Rockhampton         19
+  23.  22.62 150.  28.59 150.0 -10.0   12.
+402  031011   94287 Cairns              99
+  16.  52.52 145.  44.64 150.0 -10.0    3.
+404  032040   94294 Townsville          20
+  19.  14.90 146.  45.97 150.0 -10.0    4.
+405  036031   94346 Longreach           23
+  23.  26.39 144.  16.97 150.0 -10.0  192. 
+801  015590   94326 Alice Springs       02
+  23.  47.86 133.  53.28 142.5 -9.50  547.
+802  014015   94120 Darwin (Old)        04
+  12.  25.44 130.  52.98 142.5 -9.50   31.
+803  014015   94120 Darwin (New)        04
+  12.  25.45 130.  53.55 142.5 -9.50   31.
+501  026021   94821 Mt. Gambier         16
+  37.  44.92 140.  46.34 142.5 -9.50   67.
+502  023034   94672 Adelaide (New)      49
+  34.  57.10 138.  31.28 142.5  -9.5    4.     
+551  023034   94672 Adelaide Airport    49
+  34.  57.47 138.  32.05 142.5  -9.5    4.
+552  016001   94659 Woomera             88
+  31.  6.94  136.  48.32 142.5  -9.5  167.
+701  088888   88888 Lauder (NIWA)       50
+  45.  2.68  169.  41.33 180.  -12.0  350.
+851  015135   94238 Tennant Creek       89
+  19.  38.61 134.  10.91 142.5  -9.5  376.
+951  200790   96995 Christmas Is.       85
+  10.  27.16 105.  41.25 105.0  -7.0  262.
+921  003003   94203 Broome              53
+  17.  56.93 122.  14.04 120.0  -8.0    9.
+922  005007   94302 Learmonth           56
+  22.  14.51 114.   5.74 120.0  -8.0    6.
+923  008051   94403 Geraldton           06
+  28.  47.49 114.  41.75 120.0  -8.0   35.
+924  012038   94637 Kalgoorlie          87
+  30.  47.16 121.  27.12 120.0  -8.0   368
+925  200284   96996 Cocos Island        00
+  12.  11.57  96.  50.12  97.5  -6.5    6.
+927  008315   94403 Geraldton (New)     89
+  28.  48.28 114.  41.93 120.0  -8.0   28.
+601  083050   03050 Cape Grim BAPS      77
+  40.  40.33 144.  41.30 150.0 -10.0   100
+998  086352   94867 Glenlitta Ave       00
+  37.  41.48 144.  56.82 150.0 -10.0   108
+997  086352   94867 Glenlitta Ave Test  00
+  37.  41.48 144.  56.82 150.0 -10.0   108  
+999  086338   99999 Head Office Lonsdale12
+  37.  48.71 144.  57.97 150.0 -10.0  123.
+901  080001   80001 Bendigo SECV        99
+  36.  44.47 144.  19.72 150.0 -10.0   100
+902  080002   80002 Albury SECV         98
+  36.   4.13 146.  57.38 150.0 -10.0   100
+903  076031   80003 Mildura SECV        97
+  34.  13.85 142.   5.05 150.  -10.0   100
+904  080004   80004 Condoblin SECV      96
+  33.   3.83 147.  12.83 150.0 -10.0   100
+905  080005   80005 Dubbo SECV          95
+  32.  13.10 148.  34.42 150.0 -10.0   100
+906  080006   80006 Cobar SECV          94
+  31.  32.55 145.  47.68 150.  -10.0   100
+907  080007   80007 Broken Hill SECV    93
+  32.   0.18 141.  28.22 150.0 -10.0   100
+908  080008   80008 Clare SECV          92
+  33.  49.80 138.  37.02 142.5 -10.0   100
+909  080009   80009 Whyalla SECV        91
+  33.   3.65 137.  30.93 142.5 -10.0   100
+910  080010   80010 Leigh Creek SECV    90
+  30.  35.98 138.  25.48 142.5 -10.0   100
+911  015135   80011 Tennant Creek SECV  89
+  19.  38.18 134.  10.55 142.5 -10.0   100
+912  014029   80012 Katherine SECV      88
+  14.  31.55 132.  22.63 142.5 -10.0   100
+913  080013   80013 Kalgoorlie SECV     87
+  30.  47.45 121.  27.68 120.0 -10.0   100
+914  008051   80014 Geraldton SECV      86
+  28.  47.85 114.  42.37 120.0 -10.0   100
+001  999999   88888 ALBANY AMO           1
+   34.   57.  117.   48. 120.0  -8.0  71.0
+002  999999   88888 ALICE SPRINGS AMO    2
+   23.   49.  133.   54. 142.5  -9.5 545.0
+004  999999   88888 DARWIN AMO           4
+   12.   25.  130.   53. 142.5  -9.5  31.0
+005  999999   88888 FORREST AMO          5
+   30.   50.  128.    7. 120.0  -8.0 156.0
+006  999999   88888 GERALDTON AMO        6
+   28.   48.  114.   42. 120.0  -8.0  37.0
+007  999999   88888 PERTH AMO            7
+   31.   56.  115.   58. 120.0  -8.0  20.0
+008  999999   88888 HALL'S CREEK AMO     8
+   18.   14.  127.   40. 120.0  -8.0 410.0
+009  999999   88888 HOBART AMO           9
+   42.   50.  147.   31. 150.0 -10.0   4.0
+010  999999   88888 LAVERTON AMO        10
+   37.   52.  144.   45. 150.0 -10.0  16.0
+011  999999   88888 LONGREACH AMO       11
+   23.   26.  144.   17. 150.0 -10.0 192.0
+012  999999   88888 MELBOURNE HO (LONSDA12
+   37.   49.  144.   58. 150.0 -10.0 123.0
+013  999999   88888 MILDURA AMO         13
+   34.   14.  142.    5. 150.0 -10.0  51.0
+014  999999   88888 MACQUARIE IS MO     14
+   54.   30.  158.   56. 165.0 -11.0 108.0
+015  999999   88888 MAWSON MO           15
+   67.   36.   62.   53.  60.0  -4.0  15.0
+016  999999   88888 MT.GAMBIER AMO      16
+   37.   45.  140.   47. 142.5  -9.5  65.0
+017  999999   88888 OODNADATTA AMO      17
+   27.   34.  135.   27. 142.5  -9.5 113.0
+018  999999   88888 PT.HEDLAND AMO      18
+   20.   23.  118.   38. 120.0  -8.0   9.0
+019  999999   88888 ROCKHAMPTON AMO     19
+   23.   23.  150.   28. 150.0 -10.0  10.0
+020  999999   88888 TOWNSVILLE AMO      20
+   19.   15.  146.   46. 150.0 -10.0   4.0
+021  999999   88888 WAGGA AMO           21
+   35.   10.  147.   28. 150.0 -10.0 221.0
+022  999999   88888 WILLIAMTOWN AMO     22
+   32.   48.  151.   50. 150.0 -10.0   9.0
+023  999999   88888 WOOMERA AMO         23
+   31.    9.  136.   49. 142.5  -9.5 165.0
+024  999999   88888 RABAUL              24
+    4.   12.  152.   11. 150.0 -10.0   8.5
+025  999999   88888 BULLSBROOK (PEARCE A25
+   31.   40.  116.    1. 120.0  -8.0  40.0
+026  999999   88888 CASEY MO            26
+   66.   17.  110.   32. 105.0  -7.0  15.0
+027  999999   88888 WILLIS IS MO        27
+   16.   18.  149.   59. 150.0 -10.0   6.0
+028  999999   88888 CANBERRA RFC        28
+   35.   16.  149.    7. 150.0 -10.0 564.0
+029  999999   88888 HAMILTON RESEARCH   29
+   37.   49.  142.    4. 150.0 -10.0 205.0
+030  999999   88888 ORANGE (AGRIC RES ST30
+   33.   19.  149.    5. 150.0 -10.0 930.0
+031  999999   88888 NAMBOUR (DEPT.PRIMAR31
+   26.   39.  152.   56. 150.0 -10.0  30.0
+032  999999   88888 KYABRAM (IRRIG RES.S32
+   36.   20.  145.    4. 150.0 -10.0 105.0
+033  999999   88888 WARRAMBINE (BASIN NO33
+   37.   50.  143.   53. 150.0 -10.0 311.0
+034  999999   88888 EMERALD (DPI-FIELD S34
+   23.   29.  148.    9. 150.0 -10.0 183.0
+035  999999   88888 CONDOBOLIN (AGRIC RE35
+   33.    4.  147.   14. 150.0 -10.0 195.0
+036  999999   88888 KALGOORLIE AMO      36
+   30.   47.  121.   28. 120.0  -8.0 360.0
+037  999999   88888 WAITE AGRICULTURAL R37
+   34.   58.  138.   38. 142.5  -9.5 122.0
+038  999999   88888 JTTRE PIN GIN HILL  38
+   17.   32.  145.   58. 150.0 -10.0  40.0
+039  999999   88888 JTTRE COWLEY BEACH  39
+   17.   41.  146.    6. 150.0 -10.0   3.0
+040  999999   88888 JTTRE CLONCURRY     40
+   20.   40.  140.   30. 150.0 -10.0 189.0
+041  999999   88888 JTTRE EARLES COURT C41
+   17.   46.  145.   48. 150.0 -10.0 120.0
+042  999999   88888 WUNDOWIE(BAKERS HILL42
+   31.   46.  116.   29. 120.0  -8.0 300.0
+043  999999   88888 BUNDOORA (LATROBE UN43
+   37.   43.  145.    3. 150.0 -10.0  90.0
+044  999999   88888 INNISFAIL (LIVERPOOL44
+   17.   43.  145.   52. 150.0 -10.0  70.0
+045  999999   88888 URIARRA FOREST NO2  45
+   35.   18.  148.   55. 150.0 -10.0 625.4
+046  999999   88888 YARRALUMLA          46
+   35.   18.  149.    5. 150.0 -10.0 581.0
+047  999999   88888 ICI ALKALI DRY CREEK47
+   34.   50.  138.   35. 142.5  -9.5   4.0
+048  999999   88888 GINNINDERRA         48
+   35.   12.  149.    5. 150.0 -10.0 603.0
+049  999999   88888 ADELAIDE AMO        49
+   34.   57.  138.   32. 142.5  -9.5   6.0
+050  999999   88888 BRISBANE AMO        50
+   27.   25.  153.    5. 150.0 -10.0   5.0
+051  999999   88888 CANBERRA AMO        51
+   35.   19.  149.   12. 150.0 -10.0 575.0
+052  999999   88888 SYDNEY AMO          52
+   33.   56.  151.   10. 150.0 -10.0   6.0
+053  999999   88888 BROOME AMO          53
+   17.   57.  122.   14. 120.0  -8.0  17.0
+054  999999   88888 CARNARVON AMO       54
+   24.   53.  113.   40. 120.0  -8.0   4.0
+055  999999   88888 ESPERANCE MO        55
+   33.   49.  121.   53. 120.0  -8.0  25.0
+056  999999   88888 LEARMONTH AMO       56
+   22.   14.  114.    5. 120.0  -8.0   5.0
+057  999999   88888 MEEKATHARRA AMO     57
+   26.   37.  118.   33. 120.0  -8.0 522.0

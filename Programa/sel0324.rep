@@ -1,0 +1,61 @@
+
+**********
+File name: sel0324.dat
+**********
+*Check for line length.......... OK
+*Check for illegal characters... OK
+*ERROR: Incorrect format.
+
+        For each logical record the line number from the beginning of
+        the file and the message only for the first line with wrong
+        format is printed below.
+
+     Log. record:      8
+     Line number:     74
+        +Wrong format of the line...
+         In the following lines the expected format and the current
+         format of the line are printed.
+
+         '#' stands for a digit (leading zeros are not allowed)
+         'X' stands for a character
+         '|' stands for the line end if it is present within first 80 characters
+             (additional characters or spaces are not allowed)
+--------------------------------------------------------------------------------
+ ## ## ## X|
+04/23/25 09:20 -1 Y|
+--------------------------------------------------------------------------------
+
+     Log. record:    100
+     Line number:  88710
+        +Wrong day and minute... (time of measurement have to be increasing)
+        --------------------------------------
+        |            |    day     |  minute  |
+        --------------------------------------
+        | Previous   |     31     |   1439   |
+        | Current    |      1     |      0   |
+        --------------------------------------
+
+     Log. record:    300
+     Line number: 133708
+        +Wrong day and minute... (time of measurement have to be increasing)
+        --------------------------------------
+        |            |    day     |  minute  |
+        --------------------------------------
+        | Previous   |     31     |   1439   |
+        | Current    |      1     |      0   |
+        --------------------------------------
+
+     Log. record:    500
+     Line number: 222623
+        +Wrong day and minute... (time of measurement have to be increasing)
+        --------------------------------------
+        |            |    day     |  minute  |
+        --------------------------------------
+        | Previous   |     31     |   1439   |
+        | Current    |      1     |      0   |
+        --------------------------------------
+
+*ERROR: Incorrect record number.
+
+     Log. record:   4000
+     Line number: 223343

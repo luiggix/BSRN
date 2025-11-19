@@ -1,0 +1,338 @@
+[Station Details]
+Station Name=Alice Springs       
+Radiation Station Number=801
+Period Of File=2018 from day number 250 to 253
+Number Of Days Covered=4
+
+[QC Stages Done]
+Stage 1 (Files Retrieved)=Tue Sep 11 06:53:16 2018 (Version 2.0-20160810123636)
+Stage 2a (Binary Analysis)=Tue Sep 11 06:55:29 2018 (Version 2.0-20160919163041)
+Stage 2b (Tracker Analysis)=Tue Sep 11 06:55:31 2018 (Version 2.0-20160810135140)
+Stage 2c (Test File Analysis)=Tue Sep 11 06:55:35 2018 (Version 2.0-20160810135545)
+Stage 2d (Time File Analysis)=Tue Sep 11 06:55:38 2018 (Version 2.0-20160810140034)
+Stage 3 (Report File Analysis)=Tue Sep 11 06:55:43 2018 (Version 2.0-20160810140400)
+Stage 4 (Preliminary Data Processing)=Tue Sep 11 06:58:03 2018 (Version 2.0-20160919181434)
+Stage Exposure (Write Exposure Files)=Tue Sep 11 06:58:34 2018 (Version 2.0-20160909162413)
+
+
+[Data Recovery Summary]
+BINARY files found=4
+Binary % recovered (files)=100
+Binary % recovered (data)=100
+Binary missing files=0
+TRACKER files found=4
+Tracker % recovered (files)=100
+Tracker missing files=0
+AWS files found=4
+Aws % recovered (files)=100
+Aws missing files=0
+PHOTOMETER files found=0
+Photometer % recovered (files)=0
+Photometer missing files=4
+TIME files found=0
+Time % recovered (files)=0
+Time missing files=4
+CLOCK files found=0
+Clock % recovered (files)=0
+Clock missing files=1
+TEST files found=1
+Test % recovered (files)=25
+Test missing files=3
+MESSAGE files found=0
+FAULT files found=0
+ERROR files found=0
+DTQ files found=0
+
+[Missing TEST files]
+TestMissing0=250, 251, 252
+
+[Missing PHOTOMETER files]
+PhotometerMissing0=250, 251, 252, 253
+
+[Missing TIME files]
+TimeMissing0=250, 251, 252, 253
+
+[Missing CLOCK files]
+ClockMissing0=250
+
+[Binary Data Recovery Summary]
+Correct File Size=4
+Correct Station details=4
+Correct Year=4
+Correct Day Number=0
+Correct Time Stamp=4
+Valid Flag Identifier=4
+Valid Samples recorded=4
+
+[Bad BINARY day]
+BinaryBadDay0=250, 251, 252, 253
+
+[Global Binary Data Recovery Summary]
+Valid Data=4
+Valid Min Data=4
+Valid Max Data=4
+Valid SD Data=4
+Valid Statistics=-1
+
+[Global Thermister Binary Data Recovery Summary]
+Valid Data=4
+Valid Min Data=4
+Valid Max Data=4
+Valid SD Data=4
+Valid Statistics=-1
+
+[Diffuse Binary Data Recovery Summary]
+Valid Data=4
+Valid Min Data=4
+Valid Max Data=4
+Valid SD Data=4
+Valid Statistics=-1
+
+[Diffuse Thermister Binary Data Recovery Summary]
+Valid Data=4
+Valid Min Data=4
+Valid Max Data=4
+Valid SD Data=4
+Valid Statistics=-1
+
+[Direct Binary Data Recovery Summary]
+Valid Data=2
+Valid Min Data=3
+Valid Max Data=2
+Valid SD Data=4
+Valid Statistics=-1
+
+[Bad BINARY Direct]
+BinaryBadDirect0=250, 253
+
+[Bad BINARY Direct max]
+BinaryBadDirectMax0=250, 253
+
+[Bad BINARY Direct min]
+BinaryBadDirectMin0=250
+
+[Direct Thermister Binary Data Recovery Summary]
+Valid Data=4
+Valid Min Data=4
+Valid Max Data=4
+Valid SD Data=4
+Valid Statistics=-1
+
+[Longwave Binary Data Recovery Summary]
+Valid Data=0
+Valid Min Data=0
+Valid Max Data=0
+Valid SD Data=3
+Valid Statistics=-1
+
+[Bad BINARY Longwave]
+BinaryBadLongwave0=250, 251, 252, 253
+
+[Bad BINARY Longwave SD]
+BinaryBadLongwaveSD0=253
+
+[Bad BINARY Longwave max]
+BinaryBadLongwaveMax0=250, 251, 252, 253
+
+[Bad BINARY Longwave min]
+BinaryBadLongwaveMin0=250, 251, 252, 253
+
+[Longwave Body Thermister Binary Data Recovery Summary]
+Valid Data=4
+Valid Min Data=4
+Valid Max Data=4
+Valid SD Data=4
+Valid Statistics=-1
+
+[Longwave Dome Thermister Binary Data Recovery Summary]
+Valid Data=4
+Valid Min Data=4
+Valid Max Data=4
+Valid SD Data=4
+Valid Statistics=-1
+
+[Short Circuit Binary Data Recovery Summary]
+Valid Data=4
+Valid Min Data=4
+Valid Max Data=4
+Valid SD Data=4
+Valid Statistics=-1
+
+[Zero Binary Data Recovery Summary]
+Valid Data=4
+Valid Min Data=4
+Valid Max Data=4
+Valid SD Data=4
+Valid Statistics=-1
+
+[Temp Binary Data Recovery Summary]
+Valid Data=4
+Valid Min Data=4
+Valid Max Data=4
+Valid SD Data=4
+Valid Statistics=-1
+
+[Day BreakDown (%) Night-Clear-Cloudy-Suspect]
+Day250= Global-091.81-008.19-000.00-000.00, Diffuse-099.93-000.07-000.00-000.00, Direct-087.78-011.94-000.28-000.00, Longwave-100.00-000.00-000.00-000.00, Missing-000.00
+Day251= Global-092.29-007.71-000.00-000.00, Diffuse-100.00-000.00-000.00-000.00, Direct-088.40-011.39-000.21-000.00, Longwave-100.00-000.00-000.00-000.00, Missing-000.00
+Day252= Global-090.56-009.44-000.00-000.00, Diffuse-099.93-000.07-000.00-000.00, Direct-085.07-014.86-000.07-000.00, Longwave-100.00-000.00-000.00-000.00, Missing-000.00
+Day253= Global-089.31-010.63-000.07-000.00, Diffuse-099.79-000.21-000.00-000.00, Direct-086.25-013.40-000.35-000.00, Longwave-099.86-000.00-000.00-000.14, Missing-000.00
+
+[Tracker Data Recovery Summary]
+Correct Date=4
+Correct Time=4
+
+[Day BreakDown (%) Parked-Passive-Active-Event]
+Day250= Tracker-045.35-006.81-047.85-000.00, Missing-000.00
+Day251= Tracker-045.28-006.81-047.92-000.00, Missing-000.00
+Day252= Tracker-045.21-007.22-047.57-000.00, Missing-000.00
+Day253= Tracker-045.00-006.88-047.99-000.00, Missing-000.14
+
+[Test File Data Summary]
+Cleaning Events=2
+AD Testing Events=0
+Other Events=0
+Bad Events=0
+
+[Previous TEST File]
+Year=2018
+Day=243
+
+[Cleaning TEST event]
+TestCleaningEvent0=243, 253
+
+[Day BreakDown (min) Cleaning-ADtest-Other-Bad]
+Day249= Cleaning-000.07-000.00-000.00-000.00
+Day253= Cleaning-000.07-000.00-000.00-000.00
+
+[Test File Event Log]
+Day250-0000=1 0673 0676 Cleaning
+
+
+;only storing cleaning data for this day
+[Day 243 Minute Listing Grouped]
+Min0001-0673=(=)(=)()(=)
+Min0674-0677=(=)(=)(CL)(=)
+Min0678-1440=(=)(=)()(=)
+
+[Day 250 Minute Listing Grouped]
+Min0001-0031=(L- LM Lm)(PK)(=)(=)
+Min0032-0060=(L- LM Lm)(TM tt)(=)(=)
+Min0061-0071=(L- LM Lm)(PK)(=)(=)
+Min0072=(L- Lm)(PK)(=)(=)
+Min0073=(Lm)(PK)(=)(=)
+Min0074-0225=()(PK)(=)(=)
+Min0226=(L- Lm)(PK)(=)(=)
+Min0227-0375=(L- LM Lm)(PK)(=)(=)
+Min0376-0393=(L- LM Lm)(TM tt)(=)(=)
+Min0394=(L- Lm)(TM tt)(=)(=)
+Min0395-0408=()(TM tt)(=)(=)
+Min0409-0427=()(AS tt)(=)(=)
+Min0428=(Lm)(AS tt)(=)(=)
+Min0429-0696=(L- LM Lm)(AS tt)(=)(=)
+Min0697=(RM L- LM Lm)(AS tt)(=)(=)
+Min0698-0700=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0701=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0702-0704=(RM L- LM Lm)(AS tt)(=)(=)
+Min0705-0712=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0713-0717=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0718=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0719-0774=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0775-0776=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0777-0779=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0780-0781=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0782-0793=(R- RM Rm L- LM Lm)(AS tt)(=)(=)
+Min0794-0795=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0796-0798=(RM L- LM Lm)(AS tt)(=)(=)
+Min0799=(L- LM Lm)(AS tt)(=)(=)
+Min0800-0801=(RM L- LM Lm)(AS tt)(=)(=)
+Min0802=(R- RM L- LM Lm)(AS tt)(=)(=)
+Min0803-0804=(RM L- LM Lm)(AS tt)(=)(=)
+Min0805-1097=(L- LM Lm)(AS tt)(=)(=)
+Min1098-1133=(L- LM Lm)(TM tt)(=)(=)
+Min1134-1439=(L- LM Lm)(PK)(=)(=)
+Min1440=(D0 L- LM Lm)(PK)(=)(=)
+
+[Day 251 Minute Listing Grouped]
+Min0001-0031=(L- LM Lm)(PK)(=)(=)
+Min0032=(L- LM Lm)(TM tt)(=)(=)
+Min0033=(L- Lm)(TM tt)(=)(=)
+Min0034=(Lm)(TM tt)(=)(=)
+Min0035-0060=()(TM tt)(=)(=)
+Min0061-0374=()(PK)(=)(=)
+Min0375-0407=()(TM tt)(=)(=)
+Min0408-0457=()(AS tt)(=)(=)
+Min0458=(Lm)(AS tt)(=)(=)
+Min0459-1097=(L- LM Lm)(AS tt)(=)(=)
+Min1098-1133=(L- LM Lm)(TM tt)(=)(=)
+Min1134-1439=(L- LM Lm)(PK)(=)(=)
+Min1440=(D0 L- LM Lm)(PK)(=)(=)
+
+[Day 252 Minute Listing Grouped]
+Min0001-0031=(L- LM Lm)(PK)(=)(=)
+Min0032-0060=(L- LM Lm)(TM tt)(=)(=)
+Min0061-0304=(L- LM Lm)(PK)(=)(=)
+Min0305=(L- Lm)(PK)(=)(=)
+Min0306=(Lm)(PK)(=)(=)
+Min0307-0373=()(PK)(=)(=)
+Min0374-0407=()(TM tt)(=)(=)
+Min0408-0444=()(AS tt)(=)(=)
+Min0445=(Lm)(AS tt)(=)(=)
+Min0446=(L- Lm)(AS tt)(=)(=)
+Min0447-1092=(L- LM Lm)(AS tt)(=)(=)
+Min1093-1133=(L- LM Lm)(TM tt)(=)(=)
+Min1134-1439=(L- LM Lm)(PK)(=)(=)
+Min1440=(D0 L- LM Lm)(PK)(=)(=)
+
+[Day 253 Minute Listing Grouped]
+Min0001-0031=(L- LM Lm)(PK)()(=)
+Min0032-0060=(L- LM Lm)(TM tt)()(=)
+Min0061-0236=(L- LM Lm)(PK)()(=)
+Min0237=(L- Lm)(PK)()(=)
+Min0238=(Lm)(PK)()(=)
+Min0239=()(PK)()(=)
+Min0240=(Lm)(PK)()(=)
+Min0241=(L- LM Lm)(PK)()(=)
+Min0242=(Lm)(PK)()(=)
+Min0243=(L- Lm)(PK)()(=)
+Min0244-0262=(L- LM Lm)(PK)()(=)
+Min0263=(L- Lm)(PK)()(=)
+Min0264-0277=(L- LM Lm)(PK)()(=)
+Min0278-0279=(L- Lm)(PK)()(=)
+Min0280-0287=(L- LM Lm)(PK)()(=)
+Min0288=(Lm)(PK)()(=)
+Min0289=(L- Lm)(PK)()(=)
+Min0290=(Lm)(PK)()(=)
+Min0291-0372=()(PK)()(=)
+Min0373-0407=()(TM tt)()(=)
+Min0408-0431=()(AS tt)()(=)
+Min0432=(Lm)(AS tt)()(=)
+Min0433-0527=(L- LM Lm)(AS tt)()(=)
+Min0528-0529=(L- LM Lm)(X)()(=)
+Min0530-0556=(L- LM Lm)(AS tt)()(=)
+Min0557=(L- Ld LM Lm)(AS tt)(CL)(=)
+Min0558=(L- Ld Lm)(AS tt)(CL)(=)
+Min0559=(L- LM Lm)(AS tt)(CL)(=)
+Min0560-0720=(L- LM Lm)(AS tt)()(=)
+Min0721-0722=(RM L- LM Lm)(AS tt)()(=)
+Min0723-0734=(L- LM Lm)(AS tt)()(=)
+Min0735=(RM L- LM Lm)(AS tt)()(=)
+Min0736=(R- RM L- LM Lm)(AS tt)()(=)
+Min0737-0741=(RM L- LM Lm)(AS tt)()(=)
+Min0742-0745=(L- LM Lm)(AS tt)()(=)
+Min0746-0747=(RM L- LM Lm)(AS tt)()(=)
+Min0748-0750=(R- RM L- LM Lm)(AS tt)()(=)
+Min0751-0752=(RM L- LM Lm)(AS tt)()(=)
+Min0753-0762=(L- LM Lm)(AS tt)()(=)
+Min0763=(RM L- LM Lm)(AS tt)()(=)
+Min0764=(L- LM Lm)(AS tt)()(=)
+Min0765-0766=(RM L- LM Lm)(AS tt)()(=)
+Min0767-0770=(R- RM L- LM Lm)(AS tt)()(=)
+Min0771-0774=(L- LM Lm)(AS tt)()(=)
+Min0775=(RM L- LM Lm)(AS tt)()(=)
+Min0776-1100=(L- LM Lm)(AS tt)()(=)
+Min1101-1134=(L- LM Lm)(TM tt)()(=)
+Min1135-1179=(L- LM Lm)(PK)()(=)
+Min1180=(L- LM Lm)(TM tt)()(=)
+Min1181-1439=(L- LM Lm)(PK)()(=)
+Min1440=(D0 L- LM Lm)(PK)()(=)
